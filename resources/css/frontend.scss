@@ -1,6 +1,6 @@
 .header {
   box-sizing: border-box;
-  height: 100vh; /* Ensures the header takes up the full viewport height */
+  min-height: 100vh; /* Ensures the minimum height of the header is the full viewport height */
   position: relative; /* Needed for absolute positioning of the pseudo-element */
   overflow: hidden; /* Ensures the pseudo-element doesn't exceed the header */
 }
@@ -12,10 +12,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('/assets/img/headerbackground.webp');
-  background-size: contain;
-  background-repeat: no-repeat;
-  pointer-events: none;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/img/headerbackground.webp') center/cover no-repeat;
+  pointer-events: none; /* Allows clicks to pass through to the header content */
 }
 
 .navbar {
@@ -57,7 +55,7 @@
 
 .header {
   .header-title {
-    padding-top: 220px;
+    padding-top: 280px;
     display: flex;
     flex-direction: column;
     align-items: center;
