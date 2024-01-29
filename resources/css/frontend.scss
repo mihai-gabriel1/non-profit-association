@@ -1,0 +1,121 @@
+.header {
+  box-sizing: border-box;
+  height: 100vh; /* Ensures the header takes up the full viewport height */
+  position: relative; /* Needed for absolute positioning of the pseudo-element */
+  overflow: hidden; /* Ensures the pseudo-element doesn't exceed the header */
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('/assets/img/headerbackground.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+.navbar {
+  background: none !important;
+}
+
+.navbar-nav {
+  gap: 30px !important;
+}
+
+.header {
+  .navbar a {
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+  .navbar a:hover {
+    color: #60bc0f !important;
+  }
+}
+
+.give-hand {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #fdbb00;
+}
+
+.better-world {
+  color: #ffffff;
+  margin-top: 0;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  line-height: 70px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.header {
+  .header-title {
+    padding-top: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.99 !important;
+  }
+  .header-buttons {
+    opacity: 0.99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+}
+
+.header-buttons {
+  .see-causes {
+    background: #60bc0f;
+    padding: 0px 50px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 48px;
+    border: 1px solid #60bc0f;
+    border-radius: 0px;
+    outline: none !important;
+    box-shadow: none !important;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 300ms linear 0s;
+  }
+
+  .see-causes:hover {
+    background: transparent;
+    color: #60bc0f;
+  }
+
+  .find-more {
+    background: #fdbb00 !important;
+    border: 1px solid #fdbb00 !important;
+    color: #000000;
+    padding: 0px 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 48px;
+    border-radius: 0px;
+    outline: none !important;
+    box-shadow: none !important;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 300ms linear 0s;
+  }
+
+  .find-more:hover {
+    background: transparent !important;
+  }
+}
