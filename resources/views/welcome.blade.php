@@ -10,10 +10,13 @@
         @vite(['resources/js/app.js'])
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     </head>
     <body>
     <div class="header">
-        <nav class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top">
+        <nav class="navbar navbar-dark navbar-expand-sm bg-dark">
         <div class="container">
             <a href="/" class="navbar-brand">
                 <i class="fas fa-blog"></i> &nbsp;
@@ -120,7 +123,314 @@
             </div>
         </div>
     </div>
-
+    <div class="finished-projects container">
+        <p class="section-title finished-projects">
+            Proiecte finalizate
+        </p>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <figure>
+                            <img class="card-img-top img-fluid" src="{{ asset('assets/img/education.webp') }}" alt="Growth">
+                        </figure>
+                        <div class="card_inner_body">
+                            <p class="card-title">
+                                Educația este un drept fundamental
+                            </p>
+                            <p class="card-text">
+                                Incercǎm sa asigurǎm tutoror copiilor din Islaz si Moldoveni mijloacele necesare pentru a merge la scoala, cat si rechizitele necesare, alaturi de alte materiale.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <figure>
+                            <img class="card-img-top img-fluid" src="{{ asset('assets/img/hungry.webp') }}" alt="Growth">
+                        </figure>
+                        <div class="card_inner_body">
+                            <p class="card-title">
+                                Asigurǎm haine si alimente celor nevoiaşi
+                            </p>
+                            <p class="card-text">
+                                Am strâns si am donat atât haine cat si alimente persoanelor la nevoie din Islaz si Moldoveni.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <figure>
+                            <img class="card-img-top img-fluid" src="{{ asset('assets/img/cloth.webp') }}" alt="Growth">
+                        </figure>
+                        <div class="card_inner_body">
+                            <p class="card-title">
+                                Educația este un drept fundamental
+                            </p>
+                            <p class="card-text">
+                                Incercǎm sa asigurǎm tutoror copiilor din Islaz si Moldoveni mijloacele necesare pentru a merge la scoala, cat si rechizitele necesare, alaturi de alte materiale.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="see-more-posts text-center">
+            Apasa <a href="#">aici</a> pentru o lista complete cu activitatile derulate de catre noi.
+        </p>
+    </div>
+    <div class="future-projects container">
+        <p class="section-title future-title">
+            Proiecte viitoare
+        </p>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="single_event">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6">
+                            <figure>
+                                <img class="card-img-top img-fluid" src="{{ asset('assets/img/water.webp') }}" alt="Growth">
+                            </figure>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="content-wrapper">
+                                <p class="future-post-title">
+                                    Apǎ potabilǎ in zonele greu accesibile
+                                </p>
+                                <p class="future-post-p">
+                                    Furnizarea si/sau transportarea de apa potabila in zonele greu accesibile, varstnicilor sau persoanelor cu dificultati de deplasare.
+                                </p>
+                                <a href="#" class="find-more">
+                                    Aflǎ mai multe
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="single_event">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6">
+                            <figure>
+                                <img class="card-img-top img-fluid" src="{{ asset('assets/img/water.webp') }}" alt="Growth">
+                            </figure>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="content-wrapper">
+                                <p class="future-post-title">
+                                    Apǎ potabilǎ in zonele greu accesibile
+                                </p>
+                                <p class="future-post-p">
+                                    Furnizarea si/sau transportarea de apa potabila in zonele greu accesibile, varstnicilor sau persoanelor cu dificultati de deplasare.
+                                </p>
+                                <a href="#" class="find-more">
+                                    Aflǎ mai multe
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="single_event">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6">
+                            <figure>
+                                <img class="card-img-top img-fluid" src="{{ asset('assets/img/water.webp') }}" alt="Growth">
+                            </figure>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="content-wrapper">
+                                <p class="future-post-title">
+                                    Apǎ potabilǎ in zonele greu accesibile
+                                </p>
+                                <p class="future-post-p">
+                                    Furnizarea si/sau transportarea de apa potabila in zonele greu accesibile, varstnicilor sau persoanelor cu dificultati de deplasare.
+                                </p>
+                                <a href="#" class="find-more">
+                                    Aflǎ mai multe
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="single_event">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6">
+                            <figure>
+                                <img class="card-img-top img-fluid" src="{{ asset('assets/img/water.webp') }}" alt="Growth">
+                            </figure>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="content-wrapper">
+                                <p class="future-post-title">
+                                    Apǎ potabilǎ in zonele greu accesibile
+                                </p>
+                                <p class="future-post-p">
+                                    Furnizarea si/sau transportarea de apa potabila in zonele greu accesibile, varstnicilor sau persoanelor cu dificultati de deplasare.
+                                </p>
+                                <a href="#" class="find-more">
+                                    Aflǎ mai multe
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="team-area-wrapper">
+        <div class="team-area container">
+        <p class="section-title team-title">
+            Hai sa facem cunoştințǎ
+        </p>
+        <div class="row team-inner">
+            <div class="col-lg-3 col-md-6">
+                <div class="team_item">
+                    <div class="team_img">
+                        <img class="card-img-top img-fluid" src="{{ asset('assets/team/raul.jpeg') }}" alt="team member">
+                    </div>
+                    <div class="team_name">
+                        <p class="team-member-name">
+                            Raul Gheorghina
+                        </p>
+                        <p class="team-member-title">
+                            Preşedinte
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="team_item">
+                    <div class="team_img">
+                        <img class="card-img-top img-fluid" src="{{ asset('assets/team/ali.jpeg') }}" alt="team member">
+                    </div>
+                    <div class="team_name">
+                        <p class="team-member-name">
+                            Ali Cranta
+                        </p>
+                        <p class="team-member-title">
+                            Membru
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="team_item">
+                    <div class="team_img">
+                        <img class="card-img-top img-fluid" src="{{ asset('assets/team/valentin.jpeg') }}" alt="team member">
+                    </div>
+                    <div class="team_name">
+                        <p class="team-member-name">
+                            Valentin Uba
+                        </p>
+                        <p class="team-member-title">
+                            Membru
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="team_item">
+                    <div class="team_img">
+                        <img class="card-img-top img-fluid" src="{{ asset('assets/team/cornelia.jpeg') }}" alt="team member">
+                    </div>
+                    <div class="team_name">
+                        <p class="team-member-name">
+                            Cornelia Popescu
+                        </p>
+                        <p class="team-member-title">
+                            Membru
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="team_item">
+                    <div class="team_img">
+                        <img class="card-img-top img-fluid" src="{{ asset('assets/team/cristina.jpeg') }}" alt="team member">
+                    </div>
+                    <div class="team_name">
+                        <p class="team-member-name">
+                            Cristina Gabriela
+                        </p>
+                        <p class="team-member-title">
+                            Membru
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="team_item">
+                    <div class="team_img">
+                        <img class="card-img-top img-fluid" src="{{ asset('assets/team/dana.jpeg') }}" alt="team member">
+                    </div>
+                    <div class="team_name">
+                        <p class="team-member-name">
+                            Dana Iordan
+                        </p>
+                        <p class="team-member-title">
+                            Membru
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="team_item">
+                    <div class="team_img">
+                        <img class="card-img-top img-fluid" src="{{ asset('assets/team/nineta.jpeg') }}" alt="team member">
+                    </div>
+                    <div class="team_name">
+                        <p class="team-member-name">
+                            Nineta Cranta
+                        </p>
+                        <p class="team-member-title">
+                            Membru
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="team_item">
+                    <div class="team_img">
+                        <img class="card-img-top img-fluid" src="{{ asset('assets/team/adelina.jpeg') }}" alt="team member">
+                    </div>
+                    <div class="team_name">
+                        <p class="team-member-name">
+                            Adelina Naidin
+                        </p>
+                        <p class="team-member-title">
+                            Voluntar
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="team_item">
+                    <div class="team_img">
+                        <img class="card-img-top img-fluid" src="{{ asset('assets/team/luiza.jpeg') }}" alt="team member">
+                    </div>
+                    <div class="team_name">
+                        <p class="team-member-name">
+                            Luiza Ciucu
+                        </p>
+                        <p class="team-member-title">
+                            Voluntar
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>

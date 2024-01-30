@@ -1,3 +1,7 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .header {
   box-sizing: border-box;
   min-height: 100vh; /* Ensures the minimum height of the header is the full viewport height */
@@ -175,4 +179,114 @@
   font-size: 15px;
   color: #777777;
   text-align: justify;
+}
+
+.about-us-left img {
+  width: 100%;
+}
+
+.section-title.finished-projects {
+  margin-bottom: 40px;
+}
+
+.finished-projects img {
+  transition: all 300ms linear 0s;
+  border-radius: 0;
+}
+
+.finished-projects {
+  .card {
+    border: 0;
+    transition: all 300ms linear 0s;
+    overflow: hidden;
+  }
+  .card:hover {
+    box-shadow: 0px 12px 40px rgba(153, 153, 153, 0.2);
+  }
+  .card_inner_body {
+    padding: 20px 10px
+  }
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 0.75rem;
+    color: #222222;
+  }
+}
+
+.future-projects {
+  margin-top: 40px;
+}
+
+.future-title {
+  margin-bottom: 60px;
+}
+
+.future-post-title {
+  color: #222222;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.future-projects .find-more {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #ebebeb;
+  background: #34ce57;
+  padding: 10px 10px;
+}
+
+.future-projects .row div:hover {
+  transition: all 0.3s ease-in-out;
+  .future-post-title {
+    color: #34ce57;
+    transition: all 0.3s ease-in-out;
+  }
+  .find-more {
+    background: #0b2e13;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.team-title {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  padding-top: 40px;
+}
+
+.team-area-wrapper {
+  background: #f9fafc;
+}
+
+.team-member-name {
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 20px;
+  transition: all 300ms linear 0s;
+  color: #222222;
+}
+
+.team-member-title {
+  color: #777777;
+  font-size: 15px;
+}
+
+.team_name {
+  text-align: center;
+  padding: 20px;
+}
+
+.team_item {
+  text-align: center;
+  border: 1px solid #ebebeb;
+  margin-bottom: 50px;
+}
+
+.team_item:hover {
+  box-shadow: 0px 20px 30px rgba(153, 153, 153, 0.2);
+  transition: all 300ms linear 0s;
+}
+
+.team-area .team_item img {
+  max-height: 300px;
 }
