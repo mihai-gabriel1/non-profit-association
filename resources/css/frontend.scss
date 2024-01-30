@@ -290,3 +290,49 @@ body {
 .team-area .team_item img {
   max-height: 300px;
 }
+
+.home-become-volunteer-wrapper {
+  background: #60bc0f;
+}
+
+.become-volunteer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-become-volunteer-wrapper {
+  padding: 30px 120px;
+
+  .volunteer-title {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .volunteer-text {
+    font-size: 15px;
+    color: #ffffff;
+  }
+  .volunteer-join-us {
+    background: #fdbb00 !important;
+    border: 1px solid #fdbb00 !important;
+    color: #000000;
+    padding: 0 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 48px;
+    border-radius: 0;
+    outline: none !important;
+    box-shadow: none !important;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 300ms linear 0s;
+  }
+  .volunteer-join-us:hover {
+    background: transparent !important;
+    text-decoration: none;
+  }
+}

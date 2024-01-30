@@ -431,6 +431,22 @@
         </div>
     </div>
     </div>
+    <div class="home-become-volunteer-wrapper">
+        <div class="become-volunteer container">
+            <p class="volunteer-title">
+                Alǎturǎ-te echipei noastre
+            </p>
+            <p class="volunteer-text">
+                Alătură-te Asociației Rural 21 și contribuie la dezvoltarea comunităților Islaz și Moldoveni. Împreună, putem aduce schimbări semnificative, fie că ești pasionat de mediu, educație sau cultură. Haide să construim un viitor mai bun, mână de la mână!
+            </p>
+            <a href="#" class="volunteer-join-us">
+                Sǎ trecem la treabǎ
+            </a>
+        </div>
+    </div>
+    <div class="latest-stories container">
+    </div>
+
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
