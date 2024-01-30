@@ -62,8 +62,63 @@
             </p>
         </div>
     </div>
-    <div class="our-causes">
-        Cauzele noastre
+    <div class="our-causes container">
+        <p class="our-causes section-title">
+            Cauzele dupa care ne ghidǎm
+        </p>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="single-cause-div">
+                    <p class="single-cause-title">
+                        Dezoltare Comunitarǎ
+                    </p>
+                    <img src="{{ asset('assets/img/development.png') }}" alt="Growth">
+                    <p class="single-cause-description">
+                        Ne dedicăm evoluției satelor Islaz și Moldoveni, susținând proiecte care aduc îmbunătățiri directe în viața comunității. Prin unirea forțelor, facem pasul către un viitor mai prosper pentru toți locuitorii.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-cause-div">
+                    <p class="single-cause-title">
+                        Protecția Mediului
+                    </p>
+                    <img src="{{ asset('assets/img/environment.jpeg') }}" alt="Growth">
+                    <p class="single-cause-description">
+                        Luptăm pentru un mediu curat și sănătos, implementând soluții pentru reducerea poluării. Responsabilitatea față de natură este esențială pentru noi, iar acțiunile noastre sunt gândite pentru a proteja și a păstra frumusețea naturală a regiunii.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-cause-div">
+                    <p class="single-cause-title">
+                        Tradiții și Turism
+                    </p>
+                    <img src="{{ asset('assets/img/turism.jpeg') }}" alt="Growth">
+                    <p class="single-cause-description">
+                        Valorificăm tradițiile locale și promovăm satul Islaz ca destinație turistică de neuitat. Cultura și istoria bogată sunt reflectate în evenimentele noastre, atrăgând vizitatori și susținând economia locală.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-us container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 about-us-left">
+                <img src="{{ asset('assets/img/team.webp') }}" alt="Growth">
+            </div>
+            <div class="col-lg-6 col-md-12  about-us-text">
+                <p class="section-title section-title-about">
+                    Unind Islaz și Moldoveni, Asociația Rural 21 catalizează dezvoltarea comunitară și conservarea tradițiilor.
+                </p>
+                <p class="about-us-p">
+                    Asociația Rural 21 se dedica susținerii celor în nevoie din Islaz și Moldoveni, oferind nu doar ajutor material, ci și programe educative care îmbrățișează tradițiile și inovația. Ne străduim să construim un mediu în care fiecare membru al comunității să se simtă valorizat și sprijinit.
+                </p>
+                <p class="about-us-p">
+                    Păstrăm vii tradițiile care definesc spiritul comunităților noastre, promovându-le ca parte integrală a identității locale. În același timp, punem accent pe adaptarea la noile tehnologii, facilitând accesul la informație și educație modernă, pentru a ține pasul cu schimbările rapide ale lumii în care trăim.
+                </p>
+            </div>
+        </div>
     </div>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
