@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Asociatia Islaz 21 | Daruieste Speranta</title>
+        <title>Asociația Islaz 21 | Daruieste Speranta</title>
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
@@ -15,7 +15,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     </head>
     <body>
-    <div class="header">
+         <div class="header">
         <nav class="navbar navbar-dark navbar-expand-sm bg-dark">
         <div class="container">
             <a href="/" class="navbar-brand">
@@ -65,7 +65,7 @@
             </p>
         </div>
     </div>
-    <div class="our-causes container">
+        <div class="our-causes container">
         <p class="our-causes section-title">
             Cauzele dupa care ne ghidǎm
         </p>
@@ -105,7 +105,7 @@
             </div>
         </div>
     </div>
-    <div class="about-us container">
+        <div class="about-us container">
         <div class="row">
             <div class="col-lg-6 col-md-12 about-us-left">
                 <img src="{{ asset('assets/img/team.webp') }}" alt="Growth">
@@ -123,7 +123,7 @@
             </div>
         </div>
     </div>
-    <div class="finished-projects container">
+        <div class="finished-projects container">
         <p class="section-title finished-projects">
             Proiecte finalizate
         </p>
@@ -184,7 +184,7 @@
             Apasa <a href="#">aici</a> pentru o lista complete cu activitatile derulate de catre noi.
         </p>
     </div>
-    <div class="future-projects container">
+        <div class="future-projects container">
         <p class="section-title future-title">
             Proiecte viitoare
         </p>
@@ -287,7 +287,7 @@
             </div>
         </div>
     </div>
-    <div class="team-area-wrapper">
+        <div class="team-area-wrapper">
         <div class="team-area container">
         <p class="section-title team-title">
             Hai sa facem cunoştințǎ
@@ -431,7 +431,7 @@
         </div>
     </div>
     </div>
-    <div class="home-become-volunteer-wrapper">
+        <div class="home-become-volunteer-wrapper">
         <div class="become-volunteer container">
             <p class="volunteer-title">
                 Alǎturǎ-te echipei noastre
@@ -444,7 +444,7 @@
             </a>
         </div>
     </div>
-    <div class="latest-stories container">
+        <div class="latest-stories container">
     </div>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
