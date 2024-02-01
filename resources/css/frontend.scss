@@ -400,10 +400,28 @@ body {
 }
 
 //Media Queries
+@media screen and (max-width: 1040px) {
+  .footer-email-wrapper p {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .header .navbar .nav-item {
+    display: flex;
+    align-items: center;
+  }
+  .header .navbar-nav {
+    gap: unset !important;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .team-area .team_item img {
     max-height: 250px;
+  }
+  .header .navbar .navbar-toggler {
+    margin-top: 20px;
   }
 }
 

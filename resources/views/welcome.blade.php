@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="header">
-        <nav class="navbar navbar-dark navbar-expand-sm bg-dark">
+        <nav class="navbar navbar-dark navbar-expand-md bg-dark">
             <div class="container">
                 <a href="/" class="navbar-brand">
                     <i class="fas fa-blog"></i> &nbsp;
@@ -22,6 +22,16 @@
                         <li class="nav-item">
                             <a href="" class="nav-link active">
                                 Despre noi
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link active">
+                                Proiecte
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link active">
+                                Vino cu noi
                             </a>
                         </li>
                         <li class="nav-item">
