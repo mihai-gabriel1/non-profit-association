@@ -288,7 +288,7 @@ body {
 }
 
 .team-area .team_item img {
-  max-height: 300px;
+  max-height: 350px;
 }
 
 .home-become-volunteer-wrapper {
@@ -374,5 +374,29 @@ body {
   }
   .footer-gallery-list {
     gap: 15px;
+  }
+}
+
+//team owl carousel
+.row.team-inner {
+  .owl-nav {
+    display: none;
+  }
+  .owl-dots button:focus {
+    outline: 0 !important;
+  }
+}
+
+//Media Queries
+
+@media screen and (max-width: 767px) {
+  .team-area .team_item img {
+    max-height: 250px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .team-area .team_item img {
+    max-height: unset;
   }
 }
