@@ -535,6 +535,30 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <p class="footer-small-title">Contacteazǎ-ne</p>
+                        <div class="d-flex align-items-center footer-address-wrapper">
+                            <img style="max-width: 30px;" class="card-img-top img-fluid" src="{{ asset('assets/logos/location.svg') }}">
+                            <div class="footer-address-wrapper footer-details-wrapper">
+                                <p>
+                                    46, Islaz, Teleorman, Romania
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center footer-address-wrapper">
+                            <img style="max-width: 30px;" class="card-img-top img-fluid" src="{{ asset('assets/logos/phone.svg') }}">
+                            <div class="footer-phone-wrapper footer-details-wrapper">
+                                <p>
+                                    +40 768 867 972
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center footer-address-wrapper">
+                            <img style="max-width: 30px;" class="card-img-top img-fluid" src="{{ asset('assets/logos/mail.svg') }}">
+                            <div class="footer-email-wrapper footer-details-wrapper">
+                                <p>
+                                    <a href="mailto:asociatia_rural21@yahoo.com" style="text-decoration: none;">asociatia_rural21@yahoo.com</a>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

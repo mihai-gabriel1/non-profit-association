@@ -356,7 +356,7 @@ body {
     font-size: 18px;
     line-height: 24px;
     font-weight: 500;
-    text-transform: capitalize;
+    //text-transform: capitalize;
     color: #fff;
     margin-bottom: 28px;
     text-align: center;
@@ -374,6 +374,18 @@ body {
   }
   .footer-gallery-list {
     gap: 15px;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  .footer-address-wrapper {
+    align-items: center !important;
+    margin-top: 10px;
+    gap: 15px;
+    color: #777777;
+  }
+  a {
+    color: #777777;
   }
 }
 
