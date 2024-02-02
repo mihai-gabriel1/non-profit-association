@@ -18,6 +18,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+
+Route::get('/join-us', function () {
+    return view('joinus-forms');
+})->name('join-us');
+
+Route::get('/projects', function () {
+    return view('projects');
+})->name('projects');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
