@@ -505,7 +505,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col lg-1 col-lg-2 col-md-6 col-sm-6">
+                    <div class="col lg-1 col-lg-2 col-md-6 col-sm-6 footer-quick-links">
                         <p class="footer-small-title">
                             Quick Links
                         </p>
@@ -543,7 +543,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-3 col-md-6 col-sm-6 footer-contact-us">
                         <p class="footer-small-title">Contacteazǎ-ne</p>
                         <div class="d-flex align-items-center footer-address-wrapper">
                             <img style="max-width: 30px;" class="card-img-top img-fluid" src="{{ asset('assets/logos/location.svg') }}">

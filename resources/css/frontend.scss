@@ -146,7 +146,6 @@ body {
   .single-cause-div:hover {
     box-shadow: 0px 20px 30px rgba(153, 153, 153, 0.2);
   }
-  padding: 50px 0px 60px
 }
 
 .section-title {
@@ -389,6 +388,11 @@ body {
   }
 }
 
+.our-causes.container {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
 //team owl carousel
 .row.team-inner {
   .owl-nav {
@@ -414,6 +418,47 @@ body {
   .header .navbar-nav {
     gap: unset !important;
   }
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+  .home-become-volunteer-wrapper {
+    padding: unset;
+  }
+  .home-become-volunteer-wrapper .volunteer-join-us {
+    margin-bottom: 20px;
+  }
+  .about-us.container .about-us-text {
+    margin-top: 15px;
+    max-width: 690px;
+  }
+  .about-us.container .row {
+    align-items: center;
+    justify-content: center;
+  }
+  .finished-projects .row .col-lg-4 {
+    border: 1px solid #ebebeb;
+    margin-top: 20px;
+  }
+  .finished-projects .see-more-posts {
+    margin-top: 10px;
+  }
+  .future-projects .row .col-lg-6 {
+    margin-top: 15px;
+    padding-bottom: 20px;
+  }
+  .big-footer .footer-quick-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer .footer-address-wrapper {
+    justify-content: center
+  }
+  .our-causes .single-cause-div {
+    padding: 20px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -423,10 +468,93 @@ body {
   .header .navbar .navbar-toggler {
     margin-top: 20px;
   }
+  .header .navbar .nav-item a{
+    margin-top: 0 ;
+  }
+}
+
+@media screen and (max-width: 697px) {
+  .give-hand, .better-world {
+    font-size: 32px;
+  }
+  .section-title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .big-footer .footer-quick-links {
+    margin-top: 20px;
+    align-items: flex-start;
+    ul {
+      padding-left: 0;
+    }
+    .footer-small-title {
+      margin-bottom: 10px;
+    }
+  }
+  .footer .footer-mission-p:last-of-type {
+    margin-top: 15px;
+  }
+  .footer .footer-gallery-list {
+    padding-left: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header .header-buttons {
+    flex-direction: column;
+    gap: unset;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    p {
+      width: 100% !important;
+    }
+  }
+  .about-us-text {
+    padding: 0 30px;
+  }
+  .section-title-about {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .give-hand, .better-world {
+    font-size: 26px;
+  }
+  .section-title {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .give-hand, .better-world {
+    font-size: 24px;
+  }
+  .section-title {
+    font-size: 24px;
+  }
 }
 
 @media screen and (max-width: 350px) {
   .team-area .team_item img {
     max-height: unset;
+  }
+  .our-causes.container, .about-us.container {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .give-hand, .better-world {
+    font-size: 22px;
+  }
+  .section-title {
+    font-size: 24px;
   }
 }
