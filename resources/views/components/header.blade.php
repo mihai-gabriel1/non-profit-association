@@ -38,7 +38,7 @@
         <p class="better-world">Pentru o lume mai bunā</p>
     </div>
     <div class="header-buttons">
-        <p class="see-causes">Cauzele noastre</p>
-        <p class="find-more">Aflā mai multe</p>
+        <a href="{{ route('about') }}" class="find-more">Aflā mai multe</a>
+        <a href="{{ route('projects') }}" class="see-causes">Cauzele noastre</a>
     </div>
 </div>
