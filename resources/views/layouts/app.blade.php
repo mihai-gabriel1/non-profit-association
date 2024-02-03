@@ -18,7 +18,7 @@
 </head>
 <body>
 <div id="cookieConsentPopup" class="cookie-consent-popup">
-    <p>Colectǎm date cookies pentru o experiențǎ cat mai plǎcutǎ. <a href="/cookie-policy">Aflǎ mai multe</a></p>
+    <p>Colectǎm date cookies pentru o experiențǎ cat mai plǎcutǎ. <a href="{{ route('cookies-consent') }}" class="nav-link active">Aflǎ mai multe</a> </p>
     <button id="acceptCookieConsent">Am ințeles!</button>
 </div>
 
