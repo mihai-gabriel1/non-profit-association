@@ -31,6 +31,10 @@ Route::get('/projects', function () {
     return view('projects');
 })->name('projects');
 
+Route::get('/joinus-forms', function () {
+    return view('joinus-forms');
+})->name('joinus-forms');
+
 Route::get('/cookies-consent', function () {
     return view('cookies-consent');
 })->name('cookies-consent');

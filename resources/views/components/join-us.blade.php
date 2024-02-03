@@ -8,7 +8,7 @@
             putem aduce schimbări semnificative, fie că ești pasionat de mediu, educație sau cultură. Haide să construim
             un viitor mai bun, mână de la mână!
         </p>
-        <a href="#" class="volunteer-join-us">
+        <a href="{{ route('joinus-forms') }}" class="volunteer-join-us">
             Sǎ trecem la treabǎ
         </a>
     </div>

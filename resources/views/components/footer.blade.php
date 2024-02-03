@@ -1,4 +1,4 @@
-<div class="footer">
+<div id="footer" class="footer">
     <div class="big-footer">
         <div class="container">
             <div class="row">
@@ -17,7 +17,7 @@
                 </div>
                 <div class="col lg-1 col-lg-2 col-md-6 col-sm-6 footer-quick-links">
                     <p class="footer-small-title">
-                        Quick Links
+                        Linkuri Utile
                     </p>
                     <ul class="footer-quick-list">
                         <li>Acasǎ</li>
@@ -67,7 +67,7 @@
                         <img style="max-width: 30px;" class="card-img-top img-fluid" src="{{ asset('assets/logos/phone.svg') }}">
                         <div class="footer-phone-wrapper footer-details-wrapper">
                             <p>
-                                +40 768 867 972
+                                <a href="https://wa.me/+40768867972" target="_blank">+40 768 867 972</a>
                             </p>
                         </div>
                     </div>

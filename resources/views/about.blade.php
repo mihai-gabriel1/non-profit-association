@@ -11,7 +11,7 @@
                 pentru a aduce o fărăma de bucurie în sufletul celor care au nevoie cu disperare de o mana întinsă.
             </p>
             <p>
-                Daca ai vǎzut toate <a href="#">proiectele</a> noastre şi doreşti sa faci parte din echipa noastrǎ,
+                Daca ai vǎzut toate <a href="{{ route('blog.index') }}">proiectele</a> noastre şi doreşti sa faci parte din echipa noastrǎ,
                 apasǎ pe butonul galben de mai jos, si sa trecem la treabǎ!
             </p>
         </div>
