@@ -35,6 +35,10 @@ Route::get('/joinus-forms', function () {
     return view('joinus-forms');
 })->name('joinus-forms');
 
+Route::get('/donate', function () {
+    return view('donate');
+})->name('donate');
+
 Route::get('/cookies-consent', function () {
     return view('cookies-consent');
 })->name('cookies-consent');

@@ -21,6 +21,9 @@
                         <a href="{{ route('projects') }}" class="nav-link active">Proiecte viitoare</a>
                     </li>
                     <li class="nav-item">
+                        <a href="{{ route('donate') }}" class="nav-link active">Fǎ o donație</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="{{ route('joinus-forms') }}" class="nav-link active">Vino cu noi</a>
                     </li>
                     <li class="nav-item">

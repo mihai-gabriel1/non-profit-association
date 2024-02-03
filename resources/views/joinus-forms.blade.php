@@ -39,10 +39,96 @@
                 <p>* Taxele și cotizațiile pot fi modificate de Consiliul Director fără notificare prealabilă pe site-ul
                     nostru.</p>
 
+                <p>Totodatǎ, puteți accesa pagina dedicatǎ redirecționǎrii impozitului pe venit, cǎtre asociația
+                    noastrǎ, accesând
+                    <a href="{{ route('donate') }}">acest link</a> .</p>
+
                 <p>Pentru a afla mai multe informații și detalii despre modalitatea de înscriere în Rural21 ne puteți
                     scrie la adresa de email: <a
                             href="mailto:asociatia_rural21@yahoo.com">asociatia_rural21@yahoo.com</a></p>
             </div>
+
+            {{--contact form--}}
+            <section class="mb-4">
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Contacteazǎ-ne</h2>
+                <p class="text-center w-responsive mx-auto mb-5">
+                    Ai vreo intrebare/nelǎmurire? Nu ezita sǎ ne contactezi, fie prin apel telefonic, fie folosind adresa de e-mail, sau folosind formularul de mai jos, şi iți vom rǎspunde in cel mai scurt timp!
+                </p>
+
+                <div class="row">
+
+                    <div class="col-md-9 mb-md-0 mb-5">
+                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="name" name="name" class="form-control">
+                                        <label for="name" class="">Numele tǎu:</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="email" name="email" class="form-control">
+                                        <label for="email" class="">Adresa de e-mail:</label>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="subject" name="subject" class="form-control">
+                                        <label for="subject" class="">Subiect</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-md-12">
+
+                                    <div class="md-form">
+                                        <textarea type="text" id="message" name="message" rows="2"
+                                                  class="form-control md-textarea"></textarea>
+                                        <label for="message">Mesajul tǎu:</label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </form>
+
+                        <div class="text-center text-md-left">
+                            <a class="btn btn-primary"
+                               onclick="document.getElementById('contact-form').submit();">Trimite</a>
+                        </div>
+                        <div class="status"></div>
+                    </div>
+
+                    <div class="col-md-3 text-center">
+                        <ul class="list-unstyled mb-0">
+                            <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                <p>Islaz, Teleorman, 46, România</p>
+                            </li>
+
+                            <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                                <a href="https://wa.me/+40768867972" target="_blank">+40 768 867 972</a>
+                            </li>
+
+                            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                <a href="mailto:asociatia_rural21@yahoo.com" style="text-decoration: none;">asociatia_rural21@yahoo.com</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </section>
+            <!--Section: Contact v.2-->
         </div>
         @include('components.footer')
     </div>
