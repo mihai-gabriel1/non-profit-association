@@ -398,6 +398,10 @@ body {
 .container.join-us-text p {
   font-size: 18px;
 }
+.footer .footer-mission-p:last-of-type {
+  margin-top: 15px;
+}
+
 //cookies consent
 .cookie-consent-popup {
   position: fixed;
@@ -531,9 +535,6 @@ body {
     .footer-small-title {
       margin-bottom: 10px;
     }
-  }
-  .footer .footer-mission-p:last-of-type {
-    margin-top: 15px;
   }
   .footer .footer-gallery-list {
     padding-left: 0;
