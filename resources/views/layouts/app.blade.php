@@ -17,6 +17,25 @@
     @stack('css')
 </head>
 <body>
+<div id="cookieConsentPopup" class="cookie-consent-popup">
+    <p>Colectǎm date cookies pentru o experiențǎ cat mai plǎcutǎ. <a href="/cookie-policy">Aflǎ mai multe</a></p>
+    <button id="acceptCookieConsent">Am ințeles!</button>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var consent = localStorage.getItem('cookieConsent');
+        if (!consent) {
+            document.getElementById('cookieConsentPopup').style.display = 'block';
+        }
+
+        document.getElementById('acceptCookieConsent').onclick = function(e) {
+            localStorage.setItem('cookieConsent', true);
+            document.getElementById('cookieConsentPopup').style.display = 'none';
+        }
+    });
+
+</script>
 @yield('content')
 @stack('js')
 </body>

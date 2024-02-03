@@ -398,6 +398,38 @@ body {
 .container.join-us-text p {
   font-size: 18px;
 }
+//cookies consent
+.cookie-consent-popup {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  z-index: 1000;
+  display: none; /* Hide by default */
+}
+
+.cookie-consent-popup p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.cookie-consent-popup a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#acceptCookieConsent {
+  margin-top: 10px;
+  padding: 5px 20px;
+  background-color: #f1d600;
+  border: none;
+  cursor: pointer;
+}
+
 
 //team owl carousel
 .row.team-inner {
@@ -482,6 +514,7 @@ body {
 @media screen and (max-width: 697px) {
   .give-hand, .better-world {
     font-size: 32px;
+    margin-bottom: 0;
   }
   .section-title {
     font-size: 28px;
@@ -513,11 +546,11 @@ body {
 @media screen and (max-width: 480px) {
   .header .header-buttons {
     flex-direction: column;
-    gap: unset;
+    gap: 10px;
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
-    p {
+    a {
       width: 100% !important;
     }
   }
