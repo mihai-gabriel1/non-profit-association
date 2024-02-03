@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BlogPostController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,6 +34,11 @@ Route::get('/projects', function () {
 Route::get('/cookies-consent', function () {
     return view('cookies-consent');
 })->name('cookies-consent');
+
+//blog routes
+Route::get('/blog', [BlogPostController::class, 'index'])->name('blog.index');
+Route::post('/blog', [BlogPostController::class, 'store'])->name('blog.store')->middleware('auth');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
