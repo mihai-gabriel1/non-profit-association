@@ -504,6 +504,33 @@ body {
   }
 }
 
+//social media icons
+.footer-social-media {
+  margin-top: 20px; /* Adjust as needed */
+  text-align: center; /* Or left/right based on your design */
+}
+
+.footer-social-media a {
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+.footer-social-media .fa-facebook-f:hover {
+  color: #4f4fff;
+}
+
+.footer-social-media .fa-instagram:hover {
+  color: #f65757;
+}
+
+.footer-social-media .fa-whatsapp:hover {
+  color: #44b949;
+}
+
+.footer-social-media .fa-envelope:hover {
+  color: #ce0f0f;
+}
+
 //Media Queries
 @media screen and (max-width: 1040px) {
   .footer-email-wrapper p {

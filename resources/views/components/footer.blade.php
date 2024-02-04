@@ -85,6 +85,14 @@
                             </p>
                         </div>
                     </div>
+
+                    <div class="footer-social-media">
+                        <a href="https://www.facebook.com/people/Asocia%C8%9Bia-Rural-21/100077523729031/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.facebook.com/people/Asocia%C8%9Bia-Rural-21/100077523729031/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/0768867972" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:asociatia_rural21@yahoo.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+
                 </div>
             </div>
         </div>
