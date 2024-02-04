@@ -4,9 +4,8 @@
             Alǎturǎ-te echipei noastre
         </p>
         <p class="volunteer-text">
-            Alătură-te Asociației Rural 21 și contribuie la dezvoltarea comunităților Islaz și Moldoveni. Împreună,
-            putem aduce schimbări semnificative, fie că ești pasionat de mediu, educație sau cultură. Haide să construim
-            un viitor mai bun, mână de la mână!
+            Alătură-te Asociației Rural 21 și contribuie la dezvoltarea comunităților Islaz și Moldoveni.
+            Haide să construim un viitor mai bun, impreunǎ!
         </p>
         <a href="{{ route('joinus-forms') }}" class="volunteer-join-us">
             Sǎ trecem la treabǎ

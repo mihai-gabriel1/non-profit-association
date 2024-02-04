@@ -136,20 +136,22 @@ body {
     padding: 50px;
     border-radius: 5px;
     text-align: center;
-    min-height: 550px !important;
   }
 
   .single-cause-div img {
-    max-width: 150px;
-    height: 140px;
+    min-height: 300px;
     width: 100%;
     border-radius: 14px;
     margin-bottom: 35px;
   }
 
   .single-cause-div .single-cause-title {
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 40px;
+  }
+
+  .single-cause-description {
+    font-size: 18px;
   }
 
   .single-cause-div:hover {
@@ -159,8 +161,7 @@ body {
 
 .section-title {
   font-size: 36px;
-  margin-bottom: 10px;
-  text-transform: capitalize;
+  margin-bottom: 40px !important;
   text-align: center;
   line-height: 1.2;
 }
@@ -325,7 +326,7 @@ body {
   }
 
   .volunteer-text {
-    font-size: 15px;
+    font-size: 18px;
     color: #ffffff;
   }
 
@@ -570,6 +571,9 @@ body {
   }
   .header .navbar .nav-item a {
     margin-top: 0;
+  }
+  .our-causes .single-cause-div img {
+    min-height: unset;
   }
 }
 

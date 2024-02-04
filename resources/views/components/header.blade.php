@@ -18,16 +18,16 @@
                         <a href="{{ route('about') }}" class="nav-link active">Despre noi</a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ route('projects') }}" class="nav-link active">Proiecte viitoare</a>
+                        <a href="{{ route('blog.index') }}" class="nav-link active">Proiectele noastre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ route('projects') }}" class="nav-link active">Proiect de viitor</a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ route('donate') }}" class="nav-link active">Fǎ o donație</a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ route('joinus-forms') }}" class="nav-link active">Vino cu noi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="{{ route('blog.index') }}" class="nav-link active">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a href="#footer" class="nav-link active">Contact</a>

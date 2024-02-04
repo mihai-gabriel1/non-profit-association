@@ -2,53 +2,36 @@
 
 @section('content')
     @include('components.header')
+    @include('components.about-us')
     <div class="our-causes container">
-        <p class="our-causes section-title">
+        <p class="our-causes section-title mb-2">
             Cauzele dupa care ne ghidǎm
         </p>
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="single-cause-div">
+        <div class="row d-flex">
+            <div class="col-lg-6 col-md-6 d-flex">
+                <div class="single-cause-div flex-fill d-flex flex-column">
                     <p class="single-cause-title">
-                        Dezoltare Comunitarǎ
+                        Dezvoltare Comunitarǎ
                     </p>
-                    <img src="{{ asset('assets/img/development.png') }}" alt="Growth">
-                    <p class="single-cause-description">
-                        Ne dedicăm evoluției satelor Islaz și Moldoveni, susținând proiecte care aduc îmbunătățiri directe
-                        în viața comunității. Prin unirea forțelor, facem pasul către un viitor mai prosper pentru toți
-                        locuitorii.
+                    <img src="{{ asset('assets/img/development.avif') }}" alt="Growth">
+                    <p class="single-cause-description flex-fill">
+                        Ne dedicăm evoluției satelor Islaz și Moldoveni, susținând proiecte care aduc îmbunătățiri directe în viața comunității. Prin unirea forțelor, facem pasul către un viitor mai prosper pentru toți locuitorii.
                     </p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="single-cause-div">
+            <div class="col-lg-6 col-md-6 d-flex">
+                <div class="single-cause-div flex-fill d-flex flex-column">
                     <p class="single-cause-title">
                         Protecția Mediului
                     </p>
-                    <img src="{{ asset('assets/img/environment.jpeg') }}" alt="Growth">
-                    <p class="single-cause-description">
-                        Luptăm pentru un mediu curat și sănătos, implementând soluții pentru reducerea poluării.
-                        Responsabilitatea față de natură este esențială pentru noi, iar acțiunile noastre sunt gândite
-                        pentru a proteja și a păstra frumusețea naturală a regiunii.
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="single-cause-div">
-                    <p class="single-cause-title">
-                        Tradiții și Turism
-                    </p>
-                    <img src="{{ asset('assets/img/turism.jpeg') }}" alt="Growth">
-                    <p class="single-cause-description">
-                        Valorificăm tradițiile locale și promovăm satul Islaz ca destinație turistică de neuitat. Cultura și
-                        istoria bogată sunt reflectate în evenimentele noastre, atrăgând vizitatori și susținând economia
-                        locală.
+                    <img src="{{ asset('assets/img/growing-plant.avif') }}" alt="Growth">
+                    <p class="single-cause-description flex-fill">
+                        Luptăm pentru un mediu curat și sănătos, implementând soluții pentru reducerea poluării. Responsabilitatea față de natură este esențială pentru noi, iar acțiunile noastre sunt gândite pentru a proteja și a păstra frumusețea naturală a regiunii.
                     </p>
                 </div>
             </div>
         </div>
     </div>
-    @include('components.about-us')
     <div class="finished-projects container">
         <p class="section-title finished-projects">
             Proiecte finalizate
@@ -233,7 +216,7 @@
                 loop:true,
                 margin:50,
                 responsiveClass:true,
-                autoplay: true,
+                // autoplay: true,
                 touchDrag: true,
                 responsive:{
                     0:{

@@ -11,7 +11,7 @@
                             Asociația Rural 21 se dedica susținerii celor în nevoie din Islaz și Moldoveni, oferind nu doar ajutor material, ci și programe educative care îmbrățișează tradițiile și inovația.
                         </p>
                         <p class="footer-mission-p text-justify">
-                            Asociația Rural 21 se dedica susținerii celor în nevoie din Islaz și Moldoveni, oferind nu doar ajutor material, ci și programe educative care îmbrățișează tradițiile și inovația.
+                            Asociația Rural 21 își asumă misiunea de a iniția și de a conduce proiecte inovatoare ce vizează progresul și prosperitatea comunităților din Islaz și Moldoveni.
                         </p>
                     </div>
                 </div>
