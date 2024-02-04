@@ -8,8 +8,10 @@
             <h2>
                 Iatǎ cateva metode prin care ne poti sprijini:
             </h2>
-            <p>
+            <p style="font-weight: 500; font-size: 18px;">
                 Redirectioneaza 3,5% din impozitul anual
+            </p>
+            <p>
                 Aslciatia Rural21 caută în continuare fonduri pentru dezvoltarea și implementarea unor proiecte complexe
                 pentru comunitatea locală, pe diferite teme de interes din aria noastră de competență, în vederea
                 atingerii obiectivelor pentru care a fost constituită.
@@ -60,7 +62,9 @@
                 <p><strong>COMPLETEAZĂ</strong> formularul urmărind instrucțiunile de la finalul documentului descărcat
                     (datele Asociației Rural21 sunt deja completate).</p>
 
-                <p><strong>TRIMITE</strong> formularul la <a href="https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/telefoane_judete/Regiuni.htm">Administrația Financiară (ANAF)</a> de care aparții până la 25 mai
+                <p><strong>TRIMITE</strong> formularul la <a
+                            href="https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/telefoane_judete/Regiuni.htm">Administrația
+                        Financiară (ANAF)</a> de care aparții până la 25 mai
                     2024, direct sau prin poștă cu scrisoare recomandată sau poți trimite / lăsa formularul completat la
                     sediul Asociației Rural21.</p>
 

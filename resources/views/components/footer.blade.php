@@ -20,12 +20,18 @@
                         Linkuri Utile
                     </p>
                     <ul class="footer-quick-list">
-                        <li>Acasǎ</li>
-                        <li>Despre</li>
-                        <li>Proiecte finalizate</li>
-                        <li>Proiecte viitoare</li>
-                        <li>Noutǎți</li>
-                        <li>Contact</li>
+                        <li class="quick-link">
+                            <a href="{{ url('/') }}" class="nav-link active">Acasǎ</a>
+                        </li>
+                        <li class="quick-link">
+                            <a href="{{ route('about') }}" class="nav-link active">Despre noi</a>
+                        </li>
+                        <li class="quick-link">
+                            <a href="{{ route('projects') }}" class="nav-link active">Proiecte viitoare</a>
+                        </li>
+                        <li class="quick-link">
+                            <a href="{{ route('blog.index') }}" class="nav-link active">Noutǎți</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
