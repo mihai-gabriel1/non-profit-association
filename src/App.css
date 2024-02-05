@@ -273,6 +273,11 @@ body {
   background: #f9fafc;
 }
 
+.team-area-wrapper .row {
+  margin-right: unset;
+  margin-left: unset;
+}
+
 .team-member-name {
   margin-bottom: 5px;
   font-weight: 500;

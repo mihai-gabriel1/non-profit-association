@@ -5,7 +5,8 @@ import growth from "../assets/img/growing-plant.avif";
 import Header from "./Header";
 import Aboutus from "./Aboutus";
 import Footer from "./Footer";
-// import Footer from "./Footer"; // Adjust the path as necessary
+import Joinus from "./Joinus";
+import Team from "./Team";
 
 export const Welcome = () => {
   return (
@@ -243,6 +244,8 @@ export const Welcome = () => {
           </div>
         </div>
       </div>
+      <Team />
+      <Joinus />
       <Footer />
       <script
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
