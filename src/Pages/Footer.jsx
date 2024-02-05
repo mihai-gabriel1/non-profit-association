@@ -1,7 +1,10 @@
-import g3 from "../assets/img/g3.jpg.webp";
 import locationLogo from "../assets/logos/location.svg";
 import phone from "../assets/logos/phone.svg";
 import envelope from "../assets/logos/mail.svg";
+import facebook from "../assets/logos/facebook.svg";
+import insta from "../assets/logos/insta.svg";
+import whatsup from "../assets/logos/whatsup.svg";
+import gmail from "../assets/logos/gmail.svg";
 
 const Footer = () => {
   return (
@@ -56,29 +59,6 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              {/* <div className="col-lg-3 col-md-6 col-sm-6">
-                <p className="footer-small-title">Galerie</p>
-                <ul className="footer-gallery-list d-flex flex-wrap">
-                  <li>
-                    <img src={g3} alt="" />
-                  </li>
-                  <li>
-                    <img src={g3} alt="" />
-                  </li>
-                  <li>
-                    <img src={g3} alt="" />
-                  </li>
-                  <li>
-                    <img src={g3} alt="" />
-                  </li>
-                  <li>
-                    <img src={g3} alt="" />
-                  </li>
-                  <li>
-                    <img src={g3} alt="" />
-                  </li>
-                </ul>
-              </div> */}
               <div className="col-lg-3 col-md-6 col-sm-6 footer-contact-us">
                 <p className="footer-small-title">Contacteazǎ-ne</p>
                 <div className="d-flex align-items-center footer-address-wrapper">
@@ -111,59 +91,23 @@ const Footer = () => {
                     </p>
                   </div>
                 </div>
-
-                <div className="footer-social-media">
-                  <a
-                    href="https://www.facebook.com/people/Asocia%C8%9Bia-Rural-21/100077523729031/"
-                    target="_blank"
-                    title="Facebook"
-                    rel="noreferrer"
-                  >
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a
-                    href="https://www.facebook.com/people/Asocia%C8%9Bia-Rural-21/100077523729031/"
-                    target="_blank"
-                    title="Instagram"
-                    rel="noreferrer"
-                  >
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                  <a
-                    href="https://wa.me/0768867972"
-                    target="_blank"
-                    title="WhatsApp"
-                    rel="noreferrer"
-                  >
-                    <i className="fab fa-whatsapp"></i>
-                  </a>
-                  <a
-                    href="mailto:asociatia_rural21@yahoo.com"
-                    target="_blank"
-                    title="Email"
-                    rel="noreferrer"
-                  >
-                    <i className="fas fa-envelope"></i>
-                  </a>
-                </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6">
+                <p className="text-center footer-small-title">Social Media</p>
                 <div className="footer-social-media">
                   <a
-                    href="https://www.facebook.com/people/Asocia%C8%9Bia-Rural-21/100077523729031/"
                     target="_blank"
-                    title="Facebook"
+                    href="https://www.facebook.com/people/Asocia%C8%9Bia-Rural-21/100077523729031/"
                     rel="noreferrer"
                   >
-                    <i className="fab fa-facebook-f"></i>
+                    <img src={facebook} alt="social media logo" />
                   </a>
                   <a
-                    href="https://www.facebook.com/people/Asocia%C8%9Bia-Rural-21/100077523729031/"
                     target="_blank"
-                    title="Instagram"
+                    href="https://www.facebook.com/people/Asocia%C8%9Bia-Rural-21/100077523729031/"
                     rel="noreferrer"
                   >
-                    <i className="fab fa-instagram"></i>
+                    <img src={insta} alt="social media logo" />
                   </a>
                   <a
                     href="https://wa.me/0768867972"
@@ -171,7 +115,7 @@ const Footer = () => {
                     title="WhatsApp"
                     rel="noreferrer"
                   >
-                    <i className="fab fa-whatsapp"></i>
+                    <img src={whatsup} alt="social media logo" />
                   </a>
                   <a
                     href="mailto:asociatia_rural21@yahoo.com"
@@ -179,7 +123,7 @@ const Footer = () => {
                     title="Email"
                     rel="noreferrer"
                   >
-                    <i className="fas fa-envelope"></i>
+                    <img src={gmail} alt="social media logo" />
                   </a>
                 </div>
               </div>
