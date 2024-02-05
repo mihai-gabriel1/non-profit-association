@@ -1,19 +1,24 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
+import development from "../assets/img/development.avif";
+import growth from "../assets/img/growing-plant.avif";
+import Header from "./Header";
+import Aboutus from "./Aboutus";
+import Footer from "./Footer";
+// import Footer from "./Footer"; // Adjust the path as necessary
 
-const Welcome = () => {
+export const Welcome = () => {
   return (
     <div>
+      <Header />
+      <Aboutus />
       <div className="our-causes container">
         <p className="our-causes section-title">Cauzele dupa care ne ghidǎm</p>
         <div className="row">
-          <div className="col-lg-4 col-md-6">
+          <div className="col-lg-6 col-md-6">
             <div className="single-cause-div">
               <p className="single-cause-title">Dezoltare Comunitarǎ</p>
-              <img
-                src="{{ asset('assets/img/development.png') }}"
-                alt="Growth"
-              />
+              <img src={development} alt="Growth" />
               <p className="single-cause-description">
                 Ne dedicăm evoluției satelor Islaz și Moldoveni, susținând
                 proiecte care aduc îmbunătățiri directe în viața comunității.
@@ -22,30 +27,15 @@ const Welcome = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6">
+          <div className="col-lg-6 col-md-6">
             <div className="single-cause-div">
               <p className="single-cause-title">Protecția Mediului</p>
-              <img
-                src="{{ asset('assets/img/environment.jpeg') }}"
-                alt="Growth"
-              />
+              <img src={growth} alt="Growth" />
               <p className="single-cause-description">
                 Luptăm pentru un mediu curat și sănătos, implementând soluții
                 pentru reducerea poluării. Responsabilitatea față de natură este
                 esențială pentru noi, iar acțiunile noastre sunt gândite pentru
                 a proteja și a păstra frumusețea naturală a regiunii.
-              </p>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="single-cause-div">
-              <p className="single-cause-title">Tradiții și Turism</p>
-              <img src="{{ asset('assets/img/turism.jpeg') }}" alt="Growth" />
-              <p className="single-cause-description">
-                Valorificăm tradițiile locale și promovăm satul Islaz ca
-                destinație turistică de neuitat. Cultura și istoria bogată sunt
-                reflectate în evenimentele noastre, atrăgând vizitatori și
-                susținând economia locală.
               </p>
             </div>
           </div>
@@ -253,6 +243,7 @@ const Welcome = () => {
           </div>
         </div>
       </div>
+      <Footer />
       <script
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
