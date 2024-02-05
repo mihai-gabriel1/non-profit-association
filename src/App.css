@@ -374,6 +374,10 @@ body {
     list-style-type: none;
   }
 
+  .footer-contact-us img {
+    max-width: 25px;
+  }
+
   padding-top: 80px;
   padding-bottom: 30px;
   background: #091b27;
