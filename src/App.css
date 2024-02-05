@@ -230,6 +230,14 @@ body {
   margin-top: 40px;
 }
 
+.future-projects img {
+  width: 100%;
+}
+
+.future-projects .row .col-lg-6 {
+  margin-bottom: 15px;
+}
+
 .future-title {
   margin-bottom: 60px;
 }

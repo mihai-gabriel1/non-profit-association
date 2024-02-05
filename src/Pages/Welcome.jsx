@@ -7,6 +7,8 @@ import Aboutus from "./Aboutus";
 import Footer from "./Footer";
 import Joinus from "./Joinus";
 import Team from "./Team";
+import education from "../assets/img/education.webp";
+import cloth from "../assets/img/cloth.webp";
 
 export const Welcome = () => {
   return (
@@ -49,11 +51,7 @@ export const Welcome = () => {
             <div className="card">
               <div className="card-body">
                 <figure>
-                  <img
-                    className="card-img-top img-fluid"
-                    src="{{ asset('assets/img/education.webp') }}"
-                    alt="Growth"
-                  />
+                  <img src={education} alt="school kid pic" />
                 </figure>
                 <div className="card_inner_body">
                   <p className="card-title">
@@ -72,11 +70,7 @@ export const Welcome = () => {
             <div className="card">
               <div className="card-body">
                 <figure>
-                  <img
-                    className="card-img-top img-fluid"
-                    src="{{ asset('assets/img/hungry.webp') }}"
-                    alt="Growth"
-                  />
+                  <img src={cloth} alt="cloth pic" />
                 </figure>
                 <div className="card_inner_body">
                   <p className="card-title">
@@ -94,11 +88,7 @@ export const Welcome = () => {
             <div className="card">
               <div className="card-body">
                 <figure>
-                  <img
-                    className="card-img-top img-fluid"
-                    src="{{ asset('assets/img/cloth.webp') }}"
-                    alt="Growth"
-                  />
+                  <img src={education} alt="school kid pic" />
                 </figure>
                 <div className="card_inner_body">
                   <p className="card-title">
@@ -127,11 +117,7 @@ export const Welcome = () => {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-6">
                   <figure>
-                    <img
-                      className="card-img-top img-fluid"
-                      src="{{ asset('assets/img/water.webp') }}"
-                      alt="Growth"
-                    />
+                    <img src={cloth} alt="cloth" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-6">
@@ -157,11 +143,7 @@ export const Welcome = () => {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-6">
                   <figure>
-                    <img
-                      className="card-img-top img-fluid"
-                      src="{{ asset('assets/img/water.webp') }}"
-                      alt="Growth"
-                    />
+                    <img src={cloth} alt="cloth" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-6">
@@ -187,11 +169,7 @@ export const Welcome = () => {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-6">
                   <figure>
-                    <img
-                      className="card-img-top img-fluid"
-                      src="{{ asset('assets/img/water.webp') }}"
-                      alt="Growth"
-                    />
+                    <img src={cloth} alt="cloth" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-6">
@@ -217,11 +195,7 @@ export const Welcome = () => {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-6">
                   <figure>
-                    <img
-                      className="card-img-top img-fluid"
-                      src="{{ asset('assets/img/water.webp') }}"
-                      alt="Growth"
-                    />
+                    <img src={cloth} alt="cloth" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-6">

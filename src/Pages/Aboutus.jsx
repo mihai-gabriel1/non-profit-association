@@ -1,3 +1,5 @@
+import team from "../assets/img/team.webp";
+
 const Aboutus = () => {
   return (
     <div>
@@ -5,7 +7,7 @@ const Aboutus = () => {
         <p className="section-title about-us-title mt-2">Cine suntem</p>
         <div className="row">
           <div className="col-lg-6 col-md-12 about-us-left">
-            <img src="{{ asset('assets/img/team.webp') }}" alt="Growth" />
+            <img src={team} alt="" />
           </div>
           <div className="col-lg-6 col-md-12  about-us-text">
             <p className="section-title section-title-about">

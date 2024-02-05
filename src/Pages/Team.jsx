@@ -10,8 +10,8 @@ const Team = () => {
               <div className="team_img">
                 <img
                   className="card-img-top img-fluid"
-                  src="{{ asset('assets/team/raul.jpeg') }}"
-                  alt="team member"
+                  src="/team/raul.jpeg"
+                  alt="Raul Gheorghina"
                 />
               </div>
               <div className="team_name">
@@ -25,8 +25,8 @@ const Team = () => {
               <div className="team_img">
                 <img
                   className="card-img-top img-fluid"
-                  src="{{ asset('assets/team/ali.jpeg') }}"
-                  alt="team member"
+                  src="/team/ali.jpeg"
+                  alt="Ali Cranta"
                 />
               </div>
               <div className="team_name">
@@ -40,8 +40,8 @@ const Team = () => {
               <div className="team_img">
                 <img
                   className="card-img-top img-fluid"
-                  src="{{ asset('assets/team/valentin.jpeg') }}"
-                  alt="team member"
+                  src="/team/valentin.jpeg"
+                  alt="Vali"
                 />
               </div>
               <div className="team_name">
@@ -55,8 +55,8 @@ const Team = () => {
               <div className="team_img">
                 <img
                   className="card-img-top img-fluid"
-                  src="{{ asset('assets/team/cornelia.jpeg') }}"
-                  alt="team member"
+                  src="/team/cornelia.jpeg"
+                  alt="member"
                 />
               </div>
               <div className="team_name">
@@ -70,8 +70,8 @@ const Team = () => {
               <div className="team_img">
                 <img
                   className="card-img-top img-fluid"
-                  src="{{ asset('assets/team/cristina.jpeg') }}"
-                  alt="team member"
+                  src="/team/cristina.jpeg"
+                  alt="member"
                 />
               </div>
               <div className="team_name">
@@ -85,8 +85,8 @@ const Team = () => {
               <div className="team_img">
                 <img
                   className="card-img-top img-fluid"
-                  src="{{ asset('assets/team/dana.jpeg') }}"
-                  alt="team member"
+                  src="/team/dana.jpeg"
+                  alt="member"
                 />
               </div>
               <div className="team_name">
@@ -100,8 +100,8 @@ const Team = () => {
               <div className="team_img">
                 <img
                   className="card-img-top img-fluid"
-                  src="{{ asset('assets/team/nineta.jpeg') }}"
-                  alt="team member"
+                  src="/team/nineta.jpeg"
+                  alt="member"
                 />
               </div>
               <div className="team_name">
@@ -115,8 +115,8 @@ const Team = () => {
               <div className="team_img">
                 <img
                   className="card-img-top img-fluid"
-                  src="{{ asset('assets/team/adelina.jpeg') }}"
-                  alt="team member"
+                  src="/team/adelina.jpeg"
+                  alt="member"
                 />
               </div>
               <div className="team_name">
@@ -130,8 +130,8 @@ const Team = () => {
               <div className="team_img">
                 <img
                   className="card-img-top img-fluid"
-                  src="{{ asset('assets/team/luiza.jpeg') }}"
-                  alt="team member"
+                  src="/team/luiza.jpeg"
+                  alt="member"
                 />
               </div>
               <div className="team_name">
