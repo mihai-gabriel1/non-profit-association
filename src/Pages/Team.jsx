@@ -1,146 +1,85 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+
 const Team = () => {
   return (
     <div>
       <div className="team-area-wrapper">
         <div className="team-area container" />
         <p className="section-title team-title">Hai sa facem cunoştințǎ</p>
-        <div className="row team-inner">
-          <div className="col-lg-3 col-md-6">
-            <div className="team_item">
-              <div className="team_img">
-                <img
-                  className="card-img-top img-fluid"
-                  src="/team/raul.jpeg"
-                  alt="Raul Gheorghina"
-                />
+        <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          spaceBetween={30}
+          slidesPerView={4}
+          navigation
+          pagination={{ clickable: true }}
+          loop={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          breakpoints={{
+            320: { slidesPerView: 1 },
+            640: { slidesPerView: 2 },
+            768: { slidesPerView: 3 },
+            1024: { slidesPerView: 4 },
+          }}
+        >
+          {[
+            {
+              src: "/team/raul.jpeg",
+              name: "Raul Gheorghina",
+              title: "Preşedinte",
+            },
+            { src: "/team/ali.jpeg", name: "Ali Cranta", title: "Membru" },
+            {
+              src: "/team/valentin.jpeg",
+              name: "Valentin Uba",
+              title: "Membru",
+            },
+            {
+              src: "/team/cornelia.jpeg",
+              name: "Cornelia Popescu",
+              title: "Membru",
+            },
+            {
+              src: "/team/cristina.jpeg",
+              name: "Cristina Gabriela",
+              title: "Membru",
+            },
+            { src: "/team/dana.jpeg", name: "Dana Iordan", title: "Membru" },
+            {
+              src: "/team/nineta.jpeg",
+              name: "Nineta Cranta",
+              title: "Membru",
+            },
+            {
+              src: "/team/adelina.jpeg",
+              name: "Adelina Naidin",
+              title: "Voluntar",
+            },
+            { src: "/team/luiza.jpeg", name: "Luiza Ciucu", title: "Voluntar" },
+          ].map((member, index) => (
+            <SwiperSlide key={index}>
+              <div className="team_item">
+                <div className="team_img">
+                  <img
+                    className="card-img-top img-fluid"
+                    src={member.src}
+                    alt={member.name}
+                  />
+                </div>
+                <div className="team_name">
+                  <p className="team-member-name">{member.name}</p>
+                  <p className="team-member-title">{member.title}</p>
+                </div>
               </div>
-              <div className="team_name">
-                <p className="team-member-name">Raul Gheorghina</p>
-                <p className="team-member-title">Preşedinte</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6">
-            <div className="team_item">
-              <div className="team_img">
-                <img
-                  className="card-img-top img-fluid"
-                  src="/team/ali.jpeg"
-                  alt="Ali Cranta"
-                />
-              </div>
-              <div className="team_name">
-                <p className="team-member-name">Ali Cranta</p>
-                <p className="team-member-title">Membru</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6">
-            <div className="team_item">
-              <div className="team_img">
-                <img
-                  className="card-img-top img-fluid"
-                  src="/team/valentin.jpeg"
-                  alt="Vali"
-                />
-              </div>
-              <div className="team_name">
-                <p className="team-member-name">Valentin Uba</p>
-                <p className="team-member-title">Membru</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6">
-            <div className="team_item">
-              <div className="team_img">
-                <img
-                  className="card-img-top img-fluid"
-                  src="/team/cornelia.jpeg"
-                  alt="member"
-                />
-              </div>
-              <div className="team_name">
-                <p className="team-member-name">Cornelia Popescu</p>
-                <p className="team-member-title">Membru</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6">
-            <div className="team_item">
-              <div className="team_img">
-                <img
-                  className="card-img-top img-fluid"
-                  src="/team/cristina.jpeg"
-                  alt="member"
-                />
-              </div>
-              <div className="team_name">
-                <p className="team-member-name">Cristina Gabriela</p>
-                <p className="team-member-title">Membru</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6">
-            <div className="team_item">
-              <div className="team_img">
-                <img
-                  className="card-img-top img-fluid"
-                  src="/team/dana.jpeg"
-                  alt="member"
-                />
-              </div>
-              <div className="team_name">
-                <p className="team-member-name">Dana Iordan</p>
-                <p className="team-member-title">Membru</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6">
-            <div className="team_item">
-              <div className="team_img">
-                <img
-                  className="card-img-top img-fluid"
-                  src="/team/nineta.jpeg"
-                  alt="member"
-                />
-              </div>
-              <div className="team_name">
-                <p className="team-member-name">Nineta Cranta</p>
-                <p className="team-member-title">Membru</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6">
-            <div className="team_item">
-              <div className="team_img">
-                <img
-                  className="card-img-top img-fluid"
-                  src="/team/adelina.jpeg"
-                  alt="member"
-                />
-              </div>
-              <div className="team_name">
-                <p className="team-member-name">Adelina Naidin</p>
-                <p className="team-member-title">Voluntar</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6">
-            <div className="team_item">
-              <div className="team_img">
-                <img
-                  className="card-img-top img-fluid"
-                  src="/team/luiza.jpeg"
-                  alt="member"
-                />
-              </div>
-              <div className="team_name">
-                <p className="team-member-name">Luiza Ciucu</p>
-                <p className="team-member-title">Voluntar</p>
-              </div>
-            </div>
-          </div>
-        </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </div>
   );

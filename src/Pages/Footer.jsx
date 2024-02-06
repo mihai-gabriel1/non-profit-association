@@ -28,7 +28,7 @@ const Footer = () => {
                   </p>
                 </div>
               </div>
-              <div className="col lg-1 col-lg-2 col-md-6 col-sm-6 footer-quick-links">
+              <div className="col-lg-2 col-md-6 col-sm-6 footer-quick-links">
                 <p className="footer-small-title">Linkuri Utile</p>
                 <ul className="footer-quick-list">
                   <li className="quick-link">
@@ -92,7 +92,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6 col-sm-6">
+              <div className="col-lg-3 col-md-6 col-sm-6 footer-social-media-col">
                 <p className="text-center footer-small-title">Social Media</p>
                 <div className="footer-social-media">
                   <a
