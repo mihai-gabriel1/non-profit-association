@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
+import { Link } from "react-router-dom";
 import development from "../assets/img/development.avif";
 import growth from "../assets/img/growing-plant.avif";
 import Header from "./Header";
@@ -8,6 +9,7 @@ import Footer from "./Footer";
 import Joinus from "./Joinus";
 import Team from "./Team";
 import education from "../assets/img/education.webp";
+import lavinia1 from "../../public/images/lavinia1.jpg";
 import cloth from "../assets/img/cloth.webp";
 
 export const Welcome = () => {
@@ -51,18 +53,24 @@ export const Welcome = () => {
             <div className="card">
               <div className="card-body">
                 <figure>
-                  <img src={education} alt="school kid pic" />
+                  <img src={lavinia1} alt="lavinia and her family" />
                 </figure>
                 <div className="card_inner_body">
                   <p className="card-title">
-                    Educația este un drept fundamental
+                    <Link to="/project1">Cazul Laviniei</Link>
                   </p>
                   <p className="card-text">
-                    Incercǎm sa asigurǎm tutoror copiilor din Islaz si Moldoveni
-                    mijloacele necesare pentru a merge la scoala, cat si
-                    rechizitele necesare, alaturi de alte materiale.
+                    Lavinia, o fetiță din comunitatea noastră, a trecut de la
+                    condiții dificile la un viitor promițător, cu acces la
+                    educație și un cămin stabil, datorită sprijinului vostru
+                    generos. Mulțumim tuturor pentru ajutorul esențial acordat
+                    Laviniei și familiei ei, reflectând puterea solidarității
+                    noastre în a schimba vieți.
                   </p>
                 </div>
+                <Link className="project-read-more" to="/project1">
+                  Citeşte mai mult
+                </Link>
               </div>
             </div>
           </div>

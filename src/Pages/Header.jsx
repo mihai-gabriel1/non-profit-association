@@ -8,10 +8,9 @@ const Header = () => {
       <div className="header">
         <nav className="navbar navbar-dark navbar-expand-md bg-dark">
           <div className="container">
-            <a href="{{ url('/') }}" className="navbar-brand">
-              <i className="fas fa-blog"></i> &nbsp; Asociația Islaz 21
-            </a>
-
+            <Link to="/" className="router-link">
+              <p>Asociația Islaz 21</p>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -22,7 +21,7 @@ const Header = () => {
             </button>
             <div id="navbarCollapse" className="collapse navbar-collapse">
               <ul className="navbar-nav ml-auto">
-                <Link to="/donate" className="router-link">
+                <Link to="/" className="router-link">
                   <p>Acasǎ</p>
                 </Link>
                 <Link to="/donate" className="router-link">

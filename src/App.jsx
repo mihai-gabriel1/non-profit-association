@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Welcome from "./Pages/Welcome";
 import Donate from "./Pages/Donate";
+import Project1 from "./Pages/Project1";
 import "./App.css";
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Welcome />} />
           <Route path="/donate" element={<Donate />} />
-          {/* Define more routes as needed */}
+          <Route path="/project1" element={<Project1 />} />
         </Routes>
       </div>
     </Router>

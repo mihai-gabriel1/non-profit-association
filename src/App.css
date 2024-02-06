@@ -148,6 +148,7 @@ body {
     padding: 50px;
     border-radius: 5px;
     text-align: center;
+    min-height: 662px;
   }
 
   .single-cause-div img {
@@ -218,6 +219,27 @@ body {
   width: 100%;
   transition: all 300ms linear 0s;
   border-radius: 0;
+  border-radius: 6px;
+}
+
+.finished-projects .project-read-more {
+  background-color: #217535;
+  color: #fff;
+  padding: 8px 6px;
+  border-radius: 8px;
+  transition: all ease-in 0.1s;
+}
+
+.finished-projects .project-read-more:hover {
+  background-color: #0d2e14;
+  text-decoration: none;
+  transition: all ease 0.1s;
+}
+
+.finished-projects .card-title a {
+  font-size: 20px;
+  margin-bottom: 0.75rem;
+  color: #222222;
 }
 
 .finished-projects {
@@ -545,6 +567,14 @@ body {
 
 .footer-social-media img {
   max-width: 30px;
+}
+
+/* projects */
+.project-content {
+  padding: 20px 0;
+}
+.project-content h1 {
+  margin-bottom: 30px;
 }
 
 /* //Media Queries */
