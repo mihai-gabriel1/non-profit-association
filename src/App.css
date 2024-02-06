@@ -571,13 +571,19 @@ body {
 
 /* projects */
 .project-content {
-  padding: 20px 0;
+  padding: 20px;
 }
+
 .project-content h1 {
   margin-bottom: 30px;
 }
-
 /* //Media Queries */
+@media screen and (max-width: 1150px) {
+  .footer {
+    padding-top: 40px;
+  }
+}
+
 @media screen and (max-width: 1040px) {
   .footer-email-wrapper p {
     font-size: 12px !important;
@@ -593,7 +599,6 @@ body {
     gap: unset !important;
   }
   .footer {
-    padding-top: 100px;
     padding-bottom: 30px;
   }
   .home-become-volunteer-wrapper {
@@ -624,8 +629,11 @@ body {
   .big-footer .footer-quick-links {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
+  }
+  .big-footer .footer-contact-us,
+  .footer-social-media-col {
+    margin-top: 20px;
   }
   .footer .footer-address-wrapper {
     justify-content: center;
@@ -636,9 +644,6 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .team-area .team_item img {
-    max-height: 250px;
-  }
   .header .navbar .navbar-toggler {
     margin-top: 20px;
   }
@@ -647,6 +652,25 @@ body {
   }
   .our-causes .single-cause-div img {
     min-height: unset;
+  }
+  .footer .footer-title {
+    margin-bottom: 10px !important;
+  }
+  .footer .footer-contact-us {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .footer-contact-us p {
+    margin-bottom: 0;
+  }
+  .footer .footer-social-media-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer .footer-social-media-col p {
+    margin-bottom: 0;
   }
 }
 
@@ -709,6 +733,28 @@ body {
   }
   .section-title {
     font-size: 22px;
+  }
+  .footer .footer-title {
+    margin-bottom: 10px !important;
+  }
+  .footer .footer-contact-us {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .footer-contact-us p {
+    margin-bottom: 0;
+  }
+  .footer .footer-social-media-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .footer-quick-links {
+    align-items: center;
+  }
+  .footer .footer-social-media-col p {
+    margin-bottom: 0;
   }
 }
 

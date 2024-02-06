@@ -1,3 +1,4 @@
+import ReactPlayer from "react-player";
 import Footer from "./Footer";
 import Header from "./Header";
 
@@ -8,12 +9,12 @@ const Project1 = () => {
       <div className="container project-content">
         <h1 className="text-center">Cazul Laviniei</h1>
         <p>
-          Salutare dragilor! Vă prezentam în urmă cu o lună și ceva cazul
-          Laviniei, o fetiță nevinovată, aflată într-o situație dificilă,
-          marginalizată social, fără un acoperiș deasupra capului și fără acces
-          la utilități de bază în locuința precară unde își petrecea copilăria.
-          Situația ei era complicată și de lipsa documentelor oficiale, ceea ce
-          îi îngreuna și mai mult accesul la serviciile sociale necesare.
+          Salutare dragilor! Vă prezentam în urmă cu o lună cazul Laviniei, o
+          fetiță nevinovată, aflată într-o situație dificilă, marginalizată
+          social, fără un acoperiș deasupra capului și fără acces la utilități
+          de bază în locuința precară unde își petrecea copilăria. Situația ei
+          era complicată și de lipsa documentelor oficiale, ceea ce îi îngreuna
+          și mai mult accesul la serviciile sociale necesare.
         </p>
 
         <p>
@@ -35,6 +36,12 @@ const Project1 = () => {
             Mai jos vǎ ataşǎm un videoclip cu Lavinia, un suflet pur, un copil
             frumos.
           </p>
+          <ReactPlayer
+            url="/videos/lavinia.mp4"
+            controls
+            width="100%"
+            height="400px"
+          />
         </div>
       </div>
       <Footer />
