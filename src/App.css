@@ -33,6 +33,10 @@ body {
   gap: 30px !important;
 }
 
+.navbar button:focus {
+  outline: none !important;
+}
+
 .header {
   .navbar a {
     font-size: 13px;
@@ -581,6 +585,14 @@ body {
 .d-flex.align-items-center.footer-address-wrapper {
   margin-left: 20px;
 }
+
+/* swiper js */
+.swiper-carousel-image {
+  height: 200px;
+  max-width: 500px;
+  width: 100%;
+}
+
 /* //Media Queries */
 @media screen and (max-width: 1150px) {
   .footer {

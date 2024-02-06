@@ -1,4 +1,9 @@
 import ReactPlayer from "react-player";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Navigation, Pagination } from "swiper/modules";
 import Footer from "./Footer";
 import Header from "./Header";
 
@@ -8,6 +13,78 @@ const Project1 = () => {
       <Header />
       <div className="container project-content">
         <h1 className="text-center">Cazul Laviniei</h1>
+        <div className="case-photos mb-5">
+          <Swiper
+            modules={[Navigation, Pagination]}
+            spaceBetween={30}
+            slidesPerView={4}
+            navigation
+            autoplay={{
+              delay: 200,
+              disableOnInteraction: false,
+            }}
+            pagination={{ clickable: true }}
+            loop={true}
+            breakpoints={{
+              320: {
+                slidesPerView: 1,
+              },
+              640: {
+                slidesPerView: 2,
+              },
+              768: {
+                slidesPerView: 3,
+              },
+              1024: {
+                slidesPerView: 4,
+              },
+            }}
+          >
+            <SwiperSlide>
+              <img
+                className="swiper-carousel-image"
+                src="/images/lavinia1.jpg"
+                alt="Lavinia 1"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="swiper-carousel-image"
+                src="/images/lavinia2.jpeg"
+                alt="Lavinia 2"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="swiper-carousel-image"
+                src="/images/lavinia3.jpeg"
+                alt="Lavinia 3"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="swiper-carousel-image"
+                src="/images/lavinia4.jpeg"
+                alt="Lavinia 4"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="swiper-carousel-image"
+                src="/images/lavinia5.jpeg"
+                alt="Lavinia 5"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="swiper-carousel-image"
+                src="/images/lavinia6.jpeg"
+                alt="Lavinia 6"
+              />
+            </SwiperSlide>
+          </Swiper>
+        </div>
+
         <p>
           Salutare dragilor! Vă prezentam în urmă cu o lună cazul Laviniei, o
           fetiță nevinovată, aflată într-o situație dificilă, marginalizată
