@@ -577,6 +577,10 @@ body {
 .project-content h1 {
   margin-bottom: 30px;
 }
+
+.d-flex.align-items-center.footer-address-wrapper {
+  margin-left: 20px;
+}
 /* //Media Queries */
 @media screen and (max-width: 1150px) {
   .footer {
@@ -755,6 +759,9 @@ body {
   }
   .footer .footer-social-media-col p {
     margin-bottom: 0;
+  }
+  .d-flex.align-items-center.footer-address-wrapper {
+    margin-left: unset !important;
   }
 }
 
