@@ -116,7 +116,7 @@ const Project1 = () => {
           <ReactPlayer
             url="/videos/lavinia.mp4"
             controls
-            width="100%"
+            width="50%"
             height="400px"
           />
         </div>

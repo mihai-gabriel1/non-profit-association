@@ -593,6 +593,17 @@ body {
   width: 100%;
 }
 
+.project-video-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-video-content p {
+  align-self: flex-start;
+}
+
 /* //Media Queries */
 @media screen and (max-width: 1150px) {
   .footer {
