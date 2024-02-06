@@ -604,6 +604,11 @@ body {
   align-self: flex-start;
 }
 
+img.card-img-top.img-fluid {
+  max-width: 200px;
+  min-height: 277px;
+}
+
 /* //Media Queries */
 @media screen and (max-width: 1150px) {
   .footer {
@@ -643,7 +648,6 @@ body {
     justify-content: center;
   }
   .finished-projects .row .col-lg-4 {
-    border: 1px solid #ebebeb;
     margin-top: 20px;
   }
   .finished-projects .see-more-posts {
@@ -678,6 +682,9 @@ body {
     margin-top: 0;
   }
   .our-causes .single-cause-div img {
+    min-height: unset;
+  }
+  .our-causes .single-cause-div {
     min-height: unset;
   }
   .footer .footer-title {
