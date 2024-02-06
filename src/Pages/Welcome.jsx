@@ -104,7 +104,7 @@ export const Welcome = () => {
             </div>
           </div>
         </div>
-        <p className="see-more-posts text-center">
+        <p className="see-more-posts text-center mt-2">
           Apasa <a href="#">aici</a> pentru o lista complete cu activitatile
           derulate de catre noi.
         </p>

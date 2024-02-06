@@ -45,7 +45,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="{{ route('donate') }}" className="nav-link active">
+                  <a href="/donate" className="nav-link active">
                     Fǎ o donație
                   </a>
                 </li>

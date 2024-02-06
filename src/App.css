@@ -199,7 +199,12 @@ body {
   margin-bottom: 40px;
 }
 
+.finished-projects .card-body {
+  min-height: 558px;
+}
+
 .finished-projects img {
+  width: 100%;
   transition: all 300ms linear 0s;
   border-radius: 0;
 }
