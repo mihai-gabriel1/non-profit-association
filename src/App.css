@@ -563,6 +563,11 @@ body {
   }
 }
 
+.swiper.swiper-initialized.swiper-horizontal {
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+}
+
 /* //social media icons */
 .footer-social-media {
   margin-top: 20px; /* Adjust as needed */
