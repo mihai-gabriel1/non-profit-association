@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -21,47 +22,27 @@ const Header = () => {
             </button>
             <div id="navbarCollapse" className="collapse navbar-collapse">
               <ul className="navbar-nav ml-auto">
-                <li className="nav-item">
-                  <a href="{{ url('/') }}" className="nav-link active">
-                    Acasǎ
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a href="{{ route('about') }}" className="nav-link active">
-                    Despre noi
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    href="{{ route('blog.index') }}"
-                    className="nav-link active"
-                  >
-                    Proiectele noastre
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a href="{{ route('projects') }}" className="nav-link active">
-                    Proiect de viitor
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a href="/donate" className="nav-link active">
-                    Fǎ o donație
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    href="{{ route('joinus-forms') }}"
-                    className="nav-link active"
-                  >
-                    Vino cu noi
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a href="#footer" className="nav-link active">
-                    Contact
-                  </a>
-                </li>
+                <Link to="/donate" className="router-link">
+                  <p>Acasǎ</p>
+                </Link>
+                <Link to="/donate" className="router-link">
+                  <p>Despre noi</p>
+                </Link>
+                <Link to="/donate" className="router-link">
+                  <p>Proiectele noastre</p>
+                </Link>
+                <Link to="/donate" className="router-link">
+                  <p>Proiect de viitor</p>
+                </Link>
+                <Link to="/donate" className="router-link">
+                  <p>Doneazǎ</p>
+                </Link>
+                <Link to="/donate" className="router-link">
+                  <p>Vino cu noi</p>
+                </Link>
+                <Link to="#footer" className="router-link">
+                  <p>Contact</p>
+                </Link>
               </ul>
             </div>
           </div>

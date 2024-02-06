@@ -41,8 +41,19 @@ body {
     text-transform: uppercase;
   }
 
+  .header .router-link {
+    color: #fff !important;
+  }
+
   .navbar a:hover {
     color: #60bc0f !important;
+  }
+}
+
+.router-link {
+  color: #fff;
+  p {
+    margin-bottom: 0;
   }
 }
 
