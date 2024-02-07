@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import Footer from "./Footer";
 import Header from "./Header";
 
@@ -18,12 +18,12 @@ const Project2 = () => {
         </h1>
         <div className="case-photos mb-5">
           <Swiper
-            modules={[Navigation, Pagination]}
+            modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={30}
             slidesPerView={4}
             navigation
             autoplay={{
-              delay: 200,
+              delay: 2500,
               disableOnInteraction: false,
             }}
             pagination={{ clickable: true }}

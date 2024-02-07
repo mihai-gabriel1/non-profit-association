@@ -8,9 +8,9 @@ import Aboutus from "./Aboutus";
 import Footer from "./Footer";
 import Joinus from "./Joinus";
 import Team from "./Team";
-import lavinia1 from "../../public/images/lavinia/lavinia1.jpg";
-import eco6 from "../../public/images/eco/eco6.jpeg";
-import med from "../../public/images/medicalAction/med5.jpeg";
+import lavinia1 from "/images/lavinia/lavinia1.jpg";
+import eco6 from "/images/eco/eco6.jpeg";
+import med from "/images/medicalAction/med5.jpeg";
 import cloth from "../assets/img/cloth.webp";
 
 export const Welcome = () => {

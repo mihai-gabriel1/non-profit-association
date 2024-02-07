@@ -221,6 +221,7 @@ body {
 
 .finished-projects img {
   width: 100%;
+  min-height: 175px;
   transition: all 300ms linear 0s;
   border-radius: 0;
   border-radius: 6px;
@@ -615,6 +616,19 @@ img.card-img-top.img-fluid {
 }
 
 /* //Media Queries */
+@media screen and (min-width: 768px) {
+  .header .navbar ul {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .header .navbar ul {
+    gap: 5px !important;
+  }
+}
+
 @media screen and (max-width: 1150px) {
   .footer {
     padding-top: 40px;
@@ -742,6 +756,15 @@ img.card-img-top.img-fluid {
     align-items: center;
     display: flex;
     justify-content: center;
+  }
+  .overall-wrapper .about-us {
+    margin-bottom: 50px;
+  }
+  .overall-wrapper .finished-projects .section-title {
+    margin-bottom: 0 !important;
+  }
+  .overall-wrapper .future-projects .section-title {
+    margin-bottom: 0 !important;
   }
 }
 
