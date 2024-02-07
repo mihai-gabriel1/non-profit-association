@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import ReactPlayer from "react-player";
+import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -10,7 +11,7 @@ import Header from "./Header";
 
 const Project2 = () => {
   return (
-    <div>
+    <div className="project-wrapper">
       <Header />
       <div className="container project-content">
         <h1 className="text-center">
@@ -81,6 +82,9 @@ const Project2 = () => {
           evidențiat dedicarea comunității noastre pentru conservarea mediului,
           dar a subliniat și puterea acțiunii colective în realizarea unor
           schimbări palpabile.
+        </p>
+        <p className="card-title">
+          <Link to="/">Înapoi</Link>
         </p>
       </div>
       <Footer />

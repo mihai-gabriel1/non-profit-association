@@ -15,7 +15,7 @@ import cloth from "../assets/img/cloth.webp";
 
 export const Welcome = () => {
   return (
-    <div>
+    <div className="welcome-wrapper">
       <Header />
       <Aboutus />
       <div className="our-causes container">
@@ -116,10 +116,10 @@ export const Welcome = () => {
                   <p className="card-text">
                     <strong>Sănătate pentru fiecare</strong> este nu doar un
                     slogan, ci o realitate pe care Asociația Rural 21, cu
-                    sprijinul inestimabil al Clinicii Sfântul Andrei Islaz, o
-                    face posibilă. Este un proiect care ne atinge inimile,
-                    datorită medicilor voluntari și asistentelor care, începând
-                    de vineri, 30 iunie 2023, au pus în mișcare acest vis nobil.
+                    sprijinul Clinicii Sfântul Andrei Islaz, o face posibilă.
+                    Este un proiect care ne atinge inimile, datorită medicilor
+                    voluntari și asistentelor care, începând de vineri, 30 iunie
+                    2023, au pus în mișcare acest vis nobil.
                   </p>
                 </div>
                 <Link className="project-read-more" to="/project3">
@@ -261,7 +261,6 @@ export const Welcome = () => {
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossOrigin="anonymous"
       ></script>
-      <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
     </div>
   );
 };

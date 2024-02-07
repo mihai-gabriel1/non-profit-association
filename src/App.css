@@ -553,6 +553,45 @@ body {
   }
 }
 
+.donate-component .header {
+  .header-title {
+    padding-top: 150px;
+  }
+  .header-buttons {
+    padding-bottom: 50px;
+  }
+  min-height: unset !important;
+}
+
+.project-wrapper .header {
+  .header-title {
+    padding-top: 150px;
+  }
+  .header-buttons {
+    padding-bottom: 50px;
+  }
+  min-height: unset !important;
+}
+
+.projects-section-wrapper .header {
+  .header-title {
+    padding-top: 150px;
+  }
+  .header-buttons {
+    padding-bottom: 50px;
+  }
+  min-height: unset !important;
+}
+
+.joinus-layout-wrapper .header {
+  .header-title {
+    padding-top: 150px;
+  }
+  .header-buttons {
+    padding-bottom: 50px;
+  }
+  min-height: unset !important;
+}
 /* //team owl carousel */
 .row.team-inner {
   .owl-nav {
@@ -724,6 +763,17 @@ img.card-img-top.img-fluid {
   }
   .footer .footer-social-media-col p {
     margin-bottom: 0;
+  }
+  .welcome-wrapper .header {
+    min-height: unset !important;
+
+    .header-title {
+      padding-top: 150px;
+    }
+    .header-buttons {
+      padding-bottom: 50px;
+    }
+    min-height: unset !important;
   }
 }
 

@@ -23,64 +23,73 @@ const Donate = () => {
           Rezultatele proiectelor noastre, de la inițiere până în prezent, le
           poți regăsi accesând următorul <Link to="/projects">link</Link>.
         </p>
-        <table style={{ width: "100%", borderCollapse: "collapse" }}>
-          <tbody>
-            <tr>
-              <td style={{ border: "1px solid #dddddd", padding: "8px" }}>
-                <strong>Redirecționează până la 3,5%</strong>
-              </td>
-              <td style={{ border: "1px solid #dddddd", padding: "8px" }}>
-                <strong>Cum ne mai poți sprijini</strong>
-              </td>
-            </tr>
-            <tr>
-              <td style={{ border: "1px solid #dddddd", padding: "8px" }}>
-                <p>
-                  În fiecare an poți alege să redirecționezi până la 3,5% din
-                  impozitul anual plătit statului către un ONG.
-                </p>
-                <p>
-                  Procedura de redirecționare nu durează decât 5 minute și
-                  constă în completarea Declarației 230, pe care o poți descărca{" "}
-                  <strong>
-                    <a
-                      href="https://filebin.net/4j9ggk5o5dp9swi2"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      aici
+
+        <div className="table-responsive">
+          <table
+            className="table"
+            style={{ width: "100%", borderCollapse: "collapse" }}
+          >
+            <tbody>
+              <tr>
+                <td style={{ border: "1px solid #dddddd", padding: "8px" }}>
+                  <strong>Redirecționează până la 3,5%</strong>
+                </td>
+                <td style={{ border: "1px solid #dddddd", padding: "8px" }}>
+                  <strong>Cum ne mai poți sprijini</strong>
+                </td>
+              </tr>
+              <tr>
+                <td style={{ border: "1px solid #dddddd", padding: "8px" }}>
+                  <p>
+                    În fiecare an poți alege să redirecționezi până la 3,5% din
+                    impozitul anual plătit statului către un ONG.
+                  </p>
+                  <p>
+                    Procedura de redirecționare nu durează decât 5 minute și
+                    constă în completarea Declarației 230, pe care o poți
+                    descărca{" "}
+                    <strong>
+                      <a
+                        href="https://filebin.net/4j9ggk5o5dp9swi2"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        aici
+                      </a>
+                    </strong>
+                    . Aceasta trebuie depusă personal sau prin poștă, la organul
+                    fiscal de care aparții, până la data de 25 mai a fiecărui
+                    an.
+                  </p>
+                  <p>Fii alături de noi și redirecționează până la 3,5%!</p>
+                </td>
+                <td style={{ border: "1px solid #dddddd", padding: "8px" }}>
+                  <p>
+                    Ne poți sprijini prin donare sau sponsorizare pentru a
+                    susține proiectele noastre. Donația sau sponsorizarea poate
+                    fi făcută prin transfer bancar sau depunere directă la
+                    ghișeul băncii.
+                  </p>
+                  <p>
+                    Pentru alte tipuri de donații/ sponsorizări te rugăm să ne
+                    contactezi la adresa de email{" "}
+                    <a href="mailto:asociatia_rural21@yahoo.com">
+                      asociatia_rural21@yahoo.com
                     </a>
-                  </strong>
-                  . Aceasta trebuie depusă personal sau prin poștă, la organul
-                  fiscal de care aparții, până la data de 25 mai a fiecărui an.
-                </p>
-                <p>Fii alături de noi și redirecționează până la 3,5%!</p>
-              </td>
-              <td style={{ border: "1px solid #dddddd", padding: "8px" }}>
-                <p>
-                  Ne poți sprijini prin donare sau sponsorizare pentru a susține
-                  proiectele noastre. Donația sau sponsorizarea poate fi făcută
-                  prin transfer bancar sau depunere directă la ghișeul băncii.
-                </p>
-                <p>
-                  Pentru alte tipuri de donații/ sponsorizări te rugăm să ne
-                  contactezi la adresa de email{" "}
-                  <a href="mailto:asociatia_rural21@yahoo.com">
-                    asociatia_rural21@yahoo.com
-                  </a>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td
-                colSpan="2"
-                style={{ border: "1px solid #dddddd", padding: "8px" }}
-              >
-                &nbsp;
-              </td>
-            </tr>
-          </tbody>
-        </table>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  colSpan="2"
+                  style={{ border: "1px solid #dddddd", padding: "8px" }}
+                >
+                  &nbsp;
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         <div className="donate-information mt-5">
           <h3>REDIRECȚIONEAZĂ PÂNĂ LA 3,5% DIN IMPOZITUL TĂU PE VENIT</h3>
           <p>

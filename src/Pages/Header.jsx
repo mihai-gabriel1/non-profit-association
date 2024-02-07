@@ -24,10 +24,10 @@ const Header = () => {
               <Link to="/" className="router-link">
                 <p>Acasǎ</p>
               </Link>
-              <Link to="/donate" className="router-link">
+              <Link to="/aboutus" className="router-link">
                 <p>Despre noi</p>
               </Link>
-              <Link to="/donate" className="router-link">
+              <Link to="/projects" className="router-link">
                 <p>Proiectele noastre</p>
               </Link>
               <Link to="/donate" className="router-link">
@@ -36,7 +36,7 @@ const Header = () => {
               <Link to="/donate" className="router-link">
                 <p>Doneazǎ</p>
               </Link>
-              <Link to="/donate" className="router-link">
+              <Link to="/joinus" className="router-link">
                 <p>Vino cu noi</p>
               </Link>
               <Link to="#footer" className="router-link">
@@ -51,12 +51,12 @@ const Header = () => {
         <p className="better-world">Pentru o lume mai bunā</p>
       </div>
       <div className="header-buttons">
-        <a href="{{ route('about') }}" className="find-more">
-          Aflā mai multe
-        </a>
-        <a href="{{ route('projects') }}" className="see-causes">
-          Cauzele noastre
-        </a>
+        <Link to="/aboutus" className="router-link">
+          <p className="find-more">Afla mai multe</p>
+        </Link>
+        <Link to="/projects" className="router-link">
+          <p className="see-causes">Cauzele noastre</p>
+        </Link>
       </div>
     </div>
     // </div>

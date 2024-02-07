@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
+import { Link } from "react-router-dom";
 import ReactPlayer from "react-player";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -20,7 +21,7 @@ const Project1 = () => {
   ];
 
   return (
-    <div>
+    <div className="project-wrapper">
       <Header />
       <div className="container project-content">
         <h1 className="text-center">Cazul Laviniei</h1>
@@ -73,6 +74,9 @@ const Project1 = () => {
             height="400px"
           />
         </div>
+        <p className="card-title">
+          <Link to="/">Înapoi</Link>
+        </p>
       </div>
       <Footer />
     </div>

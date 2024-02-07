@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Link } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -8,7 +9,7 @@ import Header from "./Header";
 
 const Project3 = () => {
   return (
-    <div>
+    <div className="project-wrapper">
       <Header />
       <div className="container project-content">
         <h1 className="text-center">Sănătate pentru fiecare</h1>
@@ -75,6 +76,9 @@ const Project3 = () => {
           pentru că fiecare gest contează, fiecare ajutor adus consolidează
           acest pod către o lume în care sănătatea este un drept, nu un
           privilegiu.
+        </p>
+        <p className="card-title">
+          <Link to="/">Înapoi</Link>
         </p>
       </div>
       <Footer />
