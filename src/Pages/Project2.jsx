@@ -13,8 +13,10 @@ const Project2 = () => {
     <div>
       <Header />
       <div className="container project-content">
-        <h1 className="text-center">Cazul Laviniei</h1>
-        {/* <div className="case-photos mb-5">
+        <h1 className="text-center">
+          Efort comunitar pentru un mediu mai curat
+        </h1>
+        <div className="case-photos mb-5">
           <Swiper
             modules={[Navigation, Pagination]}
             spaceBetween={30}
@@ -41,59 +43,27 @@ const Project2 = () => {
               },
             }}
           >
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia1.jpg"
-                alt="Lavinia 1"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia2.jpeg"
-                alt="Lavinia 2"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia3.jpeg"
-                alt="Lavinia 3"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia4.jpeg"
-                alt="Lavinia 4"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia5.jpeg"
-                alt="Lavinia 5"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia6.jpeg"
-                alt="Lavinia 6"
-              />
-            </SwiperSlide>
+            {Array.from({ length: 12 }, (_, i) => (
+              <SwiperSlide key={i}>
+                <img
+                  className="swiper-carousel-image"
+                  src={`/images/eco/eco${i + 1}.jpeg`}
+                  alt="Ecologic Action"
+                />
+              </SwiperSlide>
+            ))}
           </Swiper>
-        </div> */}
+        </div>
 
         <p>
-          Împreună cu colegii noștri de la #asociatiarural21 și colaboratorii de
-          la #cuapelecurate și #cleandanube, am reușit să tragem un semnal de
-          alarmă și să conștientizăm prin acțiunile noastre de astăzi de la
-          Plaja Pod Olt și Gura Oltului din comuna Islaz TR. Este un memento că
-          oricine nu respectă un standard minim de colectare a deșeurilor pune
-          în pericol ecosistemul, cu posibile daune mult mai devreme decât ne-am
-          putea imagina. Un mulțumesc uriaș tuturor participanților, în special
+          Împreună cu colegii noștri de la <strong>#asociatiarural21</strong> și
+          colaboratorii de la <strong>#cuapelecurate</strong> și{" "}
+          <strong>#cleandanube</strong>, am reușit să tragem un semnal de alarmă
+          și să conștientizăm prin acțiunile noastre de astăzi de la Plaja Pod
+          Olt și Gura Oltului din comuna Islaz TR. Este un memento că oricine nu
+          respectă un standard minim de colectare a deșeurilor pune în pericol
+          ecosistemul, cu posibile daune mult mai devreme decât ne-am putea
+          imagina. Un mulțumesc uriaș tuturor participanților, în special
           tinerilor promițători care s-au alăturat nouă. Entuziasmul și
           angajamentul vostru au fost remarcabile, și a fost inspirator să vedem
           atât de mulți oameni dedicați adunați pentru o cauză comună.

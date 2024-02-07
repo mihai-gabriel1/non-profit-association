@@ -1,3 +1,5 @@
+// eslint-disable-next-line no-unused-vars
+import React from "react";
 import ReactPlayer from "react-player";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -8,6 +10,15 @@ import Footer from "./Footer";
 import Header from "./Header";
 
 const Project1 = () => {
+  const laviniaImages = [
+    "/images/lavinia/lavinia1.jpg",
+    "/images/lavinia/lavinia2.jpeg",
+    "/images/lavinia/lavinia3.jpeg",
+    "/images/lavinia/lavinia4.jpeg",
+    "/images/lavinia/lavinia5.jpeg",
+    "/images/lavinia/lavinia6.jpeg",
+  ];
+
   return (
     <div>
       <Header />
@@ -19,69 +30,25 @@ const Project1 = () => {
             spaceBetween={30}
             slidesPerView={4}
             navigation
-            autoplay={{
-              delay: 200,
-              disableOnInteraction: false,
-            }}
+            autoplay={{ delay: 200, disableOnInteraction: false }}
             pagination={{ clickable: true }}
             loop={true}
             breakpoints={{
-              320: {
-                slidesPerView: 1,
-              },
-              640: {
-                slidesPerView: 2,
-              },
-              768: {
-                slidesPerView: 3,
-              },
-              1024: {
-                slidesPerView: 4,
-              },
+              320: { slidesPerView: 1 },
+              640: { slidesPerView: 2 },
+              768: { slidesPerView: 3 },
+              1024: { slidesPerView: 4 },
             }}
           >
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia/lavinia1.jpg"
-                alt="Lavinia 1"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia/lavinia2.jpeg"
-                alt="Lavinia 2"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia/lavinia3.jpeg"
-                alt="Lavinia 3"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia/lavinia4.jpeg"
-                alt="Lavinia 4"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia/lavinia5.jpeg"
-                alt="Lavinia 5"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia/lavinia6.jpeg"
-                alt="Lavinia 6"
-              />
-            </SwiperSlide>
+            {laviniaImages.map((src, index) => (
+              <SwiperSlide key={index}>
+                <img
+                  className="swiper-carousel-image"
+                  src={src}
+                  alt={`Lavinia ${index + 1}`}
+                />
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
 
@@ -94,20 +61,6 @@ const Project1 = () => {
           și mai mult accesul la serviciile sociale necesare.
         </p>
 
-        <p>
-          Astăzi, grație generozității și implicării unor oameni cu inimă mare,
-          situația familiei Laviniei s-a schimbat radical. Tatăl ei a reușit să
-          obțină un loc de muncă stabil, toți membrii familiei au acum acte de
-          identitate, iar Lavinia a avut bucuria de a merge pentru prima dată la
-          școală, la Școala Generală nr. 1 din Islaz. Se află acum în clasa
-          întâi și este extrem de entuziasmată de noile ei descoperiri și de
-          oportunitatea de a învăța. Emoția și zâmbetul ei ne-au umplut inimile
-          de fericire, reamintindu-ne cât de mult poate conta sprijinul
-          comunității pentru a schimba vieți. Vă mulțumim din suflet tuturor
-          celor care ați contribuit la această minunată transformare și vă
-          asigurăm că bucuria și recunoștința Laviniei și a familiei sale sunt
-          nemăsurabile.
-        </p>
         <div className="project-video-content">
           <p>
             Mai jos vǎ ataşǎm un videoclip cu Lavinia, un suflet pur, un copil
