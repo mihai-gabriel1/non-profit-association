@@ -8,12 +8,14 @@ import Aboutus from "./Aboutus";
 import Footer from "./Footer";
 import Joinus from "./Joinus";
 import Team from "./Team";
-import lavinia1 from "../../public/images/lavinia1.jpg";
+import lavinia1 from "/images/lavinia/lavinia1.jpg";
+import eco6 from "/images/eco/eco6.jpeg";
+import med from "/images/medicalAction/med5.jpeg";
 import cloth from "../assets/img/cloth.webp";
 
 export const Welcome = () => {
   return (
-    <div>
+    <div className="welcome-wrapper">
       <Header />
       <Aboutus />
       <div className="our-causes container">
@@ -77,22 +79,25 @@ export const Welcome = () => {
             <div className="card">
               <div className="card-body">
                 <figure>
-                  <img src={lavinia1} alt="lavinia and her family" />
+                  <img src={eco6} alt="eco action" />
                 </figure>
                 <div className="card_inner_body">
                   <p className="card-title">
-                    <Link to="/project1">Cazul Laviniei</Link>
+                    <Link to="/project2">
+                      Efort comunitar pentru un mediu mai curat
+                    </Link>
                   </p>
                   <p className="card-text">
-                    Lavinia, o fetiță din comunitatea noastră, a trecut de la
-                    condiții dificile la un viitor promițător, cu acces la
-                    educație și un cămin stabil, datorită sprijinului vostru
-                    generos. Mulțumim tuturor pentru ajutorul esențial acordat
-                    Laviniei și familiei ei, reflectând puterea solidarității
-                    noastre în a schimba vieți.
+                    Împreună cu colegii noștri de la{" "}
+                    <strong>#asociatiarural21</strong> și colaboratorii de la{" "}
+                    <strong>#cuapelecurate</strong> și{" "}
+                    <strong>#cleandanube</strong>, am reușit să tragem un semnal
+                    de alarmă și să conștientizăm prin acțiunile noastre de
+                    astăzi de la Plaja Pod Olt și Gura Oltului din comuna Islaz
+                    TR.
                   </p>
                 </div>
-                <Link className="project-read-more" to="/project1">
+                <Link className="project-read-more" to="/project2">
                   Citeşte mai mult
                 </Link>
               </div>
@@ -102,22 +107,22 @@ export const Welcome = () => {
             <div className="card">
               <div className="card-body">
                 <figure>
-                  <img src={lavinia1} alt="lavinia and her family" />
+                  <img src={med} alt="lavinia and her family" />
                 </figure>
                 <div className="card_inner_body">
                   <p className="card-title">
-                    <Link to="/project1">Cazul Laviniei</Link>
+                    <Link to="/project3">Sānātate pentru toti</Link>
                   </p>
                   <p className="card-text">
-                    Lavinia, o fetiță din comunitatea noastră, a trecut de la
-                    condiții dificile la un viitor promițător, cu acces la
-                    educație și un cămin stabil, datorită sprijinului vostru
-                    generos. Mulțumim tuturor pentru ajutorul esențial acordat
-                    Laviniei și familiei ei, reflectând puterea solidarității
-                    noastre în a schimba vieți.
+                    <strong>Sănătate pentru fiecare</strong> este nu doar un
+                    slogan, ci o realitate pe care Asociația Rural 21, cu
+                    sprijinul Clinicii Sfântul Andrei Islaz, o face posibilă.
+                    Este un proiect care ne atinge inimile, datorită medicilor
+                    voluntari și asistentelor care, începând de vineri, 30 iunie
+                    2023, au pus în mișcare acest vis nobil.
                   </p>
                 </div>
-                <Link className="project-read-more" to="/project1">
+                <Link className="project-read-more" to="/project3">
                   Citeşte mai mult
                 </Link>
               </div>
@@ -256,7 +261,6 @@ export const Welcome = () => {
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossOrigin="anonymous"
       ></script>
-      <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
     </div>
   );
 };

@@ -1,26 +1,26 @@
-import ReactPlayer from "react-player";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Link } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import Footer from "./Footer";
 import Header from "./Header";
 
 const Project3 = () => {
   return (
-    <div>
+    <div className="project-wrapper">
       <Header />
       <div className="container project-content">
-        <h1 className="text-center">Cazul Laviniei</h1>
+        <h1 className="text-center">Sănătate pentru fiecare</h1>
         <div className="case-photos mb-5">
           <Swiper
-            modules={[Navigation, Pagination]}
+            modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={30}
             slidesPerView={4}
             navigation
             autoplay={{
-              delay: 200,
+              delay: 2500,
               disableOnInteraction: false,
             }}
             pagination={{ clickable: true }}
@@ -40,86 +40,46 @@ const Project3 = () => {
               },
             }}
           >
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia1.jpg"
-                alt="Lavinia 1"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia2.jpeg"
-                alt="Lavinia 2"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia3.jpeg"
-                alt="Lavinia 3"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia4.jpeg"
-                alt="Lavinia 4"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia5.jpeg"
-                alt="Lavinia 5"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia6.jpeg"
-                alt="Lavinia 6"
-              />
-            </SwiperSlide>
+            {Array.from({ length: 5 }, (_, i) => (
+              <SwiperSlide key={i}>
+                <img
+                  className="swiper-carousel-image"
+                  src={`/images/medicalAction/med${i + 1}.jpeg`}
+                  alt="Medical Action"
+                />
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
 
         <p>
-          Salutare dragilor! Vă prezentam în urmă cu o lună cazul Laviniei, o
-          fetiță nevinovată, aflată într-o situație dificilă, marginalizată
-          social, fără un acoperiș deasupra capului și fără acces la utilități
-          de bază în locuința precară unde își petrecea copilăria. Situația ei
-          era complicată și de lipsa documentelor oficiale, ceea ce îi îngreuna
-          și mai mult accesul la serviciile sociale necesare.
+          <strong>Sănătate pentru fiecare</strong> este nu doar un slogan, ci o
+          realitate pe care Asociația Rural 21, cu sprijinul inestimabil al
+          Clinicii Sfântul Andrei Islaz, o face posibilă. Este un proiect care
+          ne atinge inimile, datorită medicilor voluntari și asistentelor care,
+          începând de vineri, 30 iunie 2023, au pus în mișcare acest vis nobil.
+          Grație dedicării lor, dorința noastră de a oferi acces la servicii
+          medicale gratuite sau la prețuri reduse persoanelor vulnerabile
+          financiar începe să prindă contur. Este un pas uriaș în direcția
+          egalității în sănătate, un domeniu atât de crucial pentru bunăstarea
+          fiecăruia dintre noi.
         </p>
 
         <p>
-          Astăzi, grație generozității și implicării unor oameni cu inimă mare,
-          situația familiei Laviniei s-a schimbat radical. Tatăl ei a reușit să
-          obțină un loc de muncă stabil, toți membrii familiei au acum acte de
-          identitate, iar Lavinia a avut bucuria de a merge pentru prima dată la
-          școală, la Școala Generală nr. 1 din Islaz. Se află acum în clasa
-          întâi și este extrem de entuziasmată de noile ei descoperiri și de
-          oportunitatea de a învăța. Emoția și zâmbetul ei ne-au umplut inimile
-          de fericire, reamintindu-ne cât de mult poate conta sprijinul
-          comunității pentru a schimba vieți. Vă mulțumim din suflet tuturor
-          celor care ați contribuit la această minunată transformare și vă
-          asigurăm că bucuria și recunoștința Laviniei și a familiei sale sunt
-          nemăsurabile.
+          Implicarea și generozitatea acestor eroi în halate albe reprezintă
+          coloana vertebrală a acestui proiect. Fiecare consultație oferită,
+          fiecare sfat medical acordat aduce speranță și alinare celor care,
+          până acum, poate nu au avut acces la îngrijirea de care aveau atât de
+          multă nevoie. Este un memento puternic că, împreună, putem face
+          diferența în viețile oamenilor, aducând un strop de lumină acolo unde
+          situația părea fără speranță. Vă invităm să rămâneți alături de noi,
+          pentru că fiecare gest contează, fiecare ajutor adus consolidează
+          acest pod către o lume în care sănătatea este un drept, nu un
+          privilegiu.
         </p>
-        <div className="project-video-content">
-          <p>
-            Mai jos vǎ ataşǎm un videoclip cu Lavinia, un suflet pur, un copil
-            frumos.
-          </p>
-          <ReactPlayer
-            url="/videos/lavinia.mp4"
-            controls
-            width="100%"
-            height="400px"
-          />
-        </div>
+        <p className="card-title">
+          <Link to="/">Înapoi</Link>
+        </p>
       </div>
       <Footer />
     </div>

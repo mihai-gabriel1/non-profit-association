@@ -1,26 +1,30 @@
+// eslint-disable-next-line no-unused-vars
 import ReactPlayer from "react-player";
+import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import Footer from "./Footer";
 import Header from "./Header";
 
 const Project2 = () => {
   return (
-    <div>
+    <div className="project-wrapper">
       <Header />
       <div className="container project-content">
-        <h1 className="text-center">Cazul Laviniei</h1>
+        <h1 className="text-center">
+          Efort comunitar pentru un mediu mai curat
+        </h1>
         <div className="case-photos mb-5">
           <Swiper
-            modules={[Navigation, Pagination]}
+            modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={30}
             slidesPerView={4}
             navigation
             autoplay={{
-              delay: 200,
+              delay: 2500,
               disableOnInteraction: false,
             }}
             pagination={{ clickable: true }}
@@ -40,86 +44,48 @@ const Project2 = () => {
               },
             }}
           >
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia1.jpg"
-                alt="Lavinia 1"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia2.jpeg"
-                alt="Lavinia 2"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia3.jpeg"
-                alt="Lavinia 3"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia4.jpeg"
-                alt="Lavinia 4"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia5.jpeg"
-                alt="Lavinia 5"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="swiper-carousel-image"
-                src="/images/lavinia6.jpeg"
-                alt="Lavinia 6"
-              />
-            </SwiperSlide>
+            {Array.from({ length: 12 }, (_, i) => (
+              <SwiperSlide key={i}>
+                <img
+                  className="swiper-carousel-image"
+                  src={`/images/eco/eco${i + 1}.jpeg`}
+                  alt="Ecologic Action"
+                />
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
 
         <p>
-          Salutare dragilor! Vă prezentam în urmă cu o lună cazul Laviniei, o
-          fetiță nevinovată, aflată într-o situație dificilă, marginalizată
-          social, fără un acoperiș deasupra capului și fără acces la utilități
-          de bază în locuința precară unde își petrecea copilăria. Situația ei
-          era complicată și de lipsa documentelor oficiale, ceea ce îi îngreuna
-          și mai mult accesul la serviciile sociale necesare.
+          Împreună cu colegii noștri de la <strong>#asociatiarural21</strong> și
+          colaboratorii de la <strong>#cuapelecurate</strong> și{" "}
+          <strong>#cleandanube</strong>, am reușit să tragem un semnal de alarmă
+          și să conștientizăm prin acțiunile noastre de astăzi de la Plaja Pod
+          Olt și Gura Oltului din comuna Islaz TR. Este un memento că oricine nu
+          respectă un standard minim de colectare a deșeurilor pune în pericol
+          ecosistemul, cu posibile daune mult mai devreme decât ne-am putea
+          imagina. Un mulțumesc uriaș tuturor participanților, în special
+          tinerilor promițători care s-au alăturat nouă. Entuziasmul și
+          angajamentul vostru au fost remarcabile, și a fost inspirator să vedem
+          atât de mulți oameni dedicați adunați pentru o cauză comună.
         </p>
 
         <p>
-          Astăzi, grație generozității și implicării unor oameni cu inimă mare,
-          situația familiei Laviniei s-a schimbat radical. Tatăl ei a reușit să
-          obțină un loc de muncă stabil, toți membrii familiei au acum acte de
-          identitate, iar Lavinia a avut bucuria de a merge pentru prima dată la
-          școală, la Școala Generală nr. 1 din Islaz. Se află acum în clasa
-          întâi și este extrem de entuziasmată de noile ei descoperiri și de
-          oportunitatea de a învăța. Emoția și zâmbetul ei ne-au umplut inimile
-          de fericire, reamintindu-ne cât de mult poate conta sprijinul
-          comunității pentru a schimba vieți. Vă mulțumim din suflet tuturor
-          celor care ați contribuit la această minunată transformare și vă
-          asigurăm că bucuria și recunoștința Laviniei și a familiei sale sunt
-          nemăsurabile.
+          Suntem de asemenea profund recunoscători Primăriei Islaz pentru
+          sprijinul acordat în colectarea zecilor de saci de gunoi adunați
+          astăzi. Acest eveniment de curățenie nu doar că a ajutat la
+          înfrumusețarea zonei, dar a avut și un impact pozitiv semnificativ
+          asupra mediului local. Îndepărtarea deșeurilor din aceste spații
+          naturale previne pătrunderea poluanților în căile noastre de apă și
+          vătămarea faunei sălbatice, asigurând un ecosistem mai sănătos pentru
+          generațiile viitoare. Efortul colectiv depus astăzi nu doar că a
+          evidențiat dedicarea comunității noastre pentru conservarea mediului,
+          dar a subliniat și puterea acțiunii colective în realizarea unor
+          schimbări palpabile.
         </p>
-        <div className="project-video-content">
-          <p>
-            Mai jos vǎ ataşǎm un videoclip cu Lavinia, un suflet pur, un copil
-            frumos.
-          </p>
-          <ReactPlayer
-            url="/videos/lavinia.mp4"
-            controls
-            width="100%"
-            height="400px"
-          />
-        </div>
+        <p className="card-title">
+          <Link to="/">Înapoi</Link>
+        </p>
       </div>
       <Footer />
     </div>

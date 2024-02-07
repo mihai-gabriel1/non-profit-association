@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Joinus = () => {
   return (
     <div>
@@ -9,9 +11,9 @@ const Joinus = () => {
             comunităților Islaz și Moldoveni. Haide să construim un viitor mai
             bun, impreunǎ!
           </p>
-          <a href="{{ route('joinus-forms') }}" className="volunteer-join-us">
-            Sǎ trecem la treabǎ
-          </a>
+          <Link to="/joinus" className="router-link volunteer-join-us">
+            <p>Sǎ trecem la treabǎ!</p>
+          </Link>
         </div>
       </div>
     </div>
