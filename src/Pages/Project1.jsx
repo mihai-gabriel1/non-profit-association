@@ -43,42 +43,42 @@ const Project1 = () => {
             <SwiperSlide>
               <img
                 className="swiper-carousel-image"
-                src="/images/lavinia1.jpg"
+                src="/images/lavinia/lavinia1.jpg"
                 alt="Lavinia 1"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 className="swiper-carousel-image"
-                src="/images/lavinia2.jpeg"
+                src="/images/lavinia/lavinia2.jpeg"
                 alt="Lavinia 2"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 className="swiper-carousel-image"
-                src="/images/lavinia3.jpeg"
+                src="/images/lavinia/lavinia3.jpeg"
                 alt="Lavinia 3"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 className="swiper-carousel-image"
-                src="/images/lavinia4.jpeg"
+                src="/images/lavinia/lavinia4.jpeg"
                 alt="Lavinia 4"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 className="swiper-carousel-image"
-                src="/images/lavinia5.jpeg"
+                src="/images/lavinia/lavinia5.jpeg"
                 alt="Lavinia 5"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 className="swiper-carousel-image"
-                src="/images/lavinia6.jpeg"
+                src="/images/lavinia/lavinia6.jpeg"
                 alt="Lavinia 6"
               />
             </SwiperSlide>
@@ -114,7 +114,7 @@ const Project1 = () => {
             frumos.
           </p>
           <ReactPlayer
-            url="/videos/lavinia.mp4"
+            url="/videos/lavinia/lavinia.mp4"
             controls
             width="50%"
             height="400px"

@@ -8,7 +8,7 @@ import Aboutus from "./Aboutus";
 import Footer from "./Footer";
 import Joinus from "./Joinus";
 import Team from "./Team";
-import lavinia1 from "../../public/images/lavinia1.jpg";
+import lavinia1 from "../../public/images/lavinia/lavinia1.jpg";
 import cloth from "../assets/img/cloth.webp";
 
 export const Welcome = () => {
