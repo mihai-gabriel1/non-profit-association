@@ -55,6 +55,7 @@ body {
   }
 
   .navbar a:hover {
+    transition: all ease-in 0.2s;
     color: #60bc0f !important;
   }
 }
@@ -122,6 +123,7 @@ body {
   }
 
   .see-causes:hover {
+    transition: all ease-in 0.2s;
     background: transparent;
     color: #60bc0f;
   }
@@ -145,6 +147,7 @@ body {
   }
 
   .find-more:hover {
+    transition: all ease-in 0.2s;
     background: transparent !important;
   }
 }
@@ -177,7 +180,8 @@ body {
   }
 
   .single-cause-div:hover {
-    box-shadow: 0px 20px 30px rgba(153, 153, 153, 0.2);
+    transition: all ease-in 0.2s;
+    box-shadow: 0 20px 30px rgba(153, 153, 153, 0.2);
   }
 }
 
@@ -261,6 +265,7 @@ body {
   }
 
   .card:hover {
+    transition: all ease-in 0.2s;
     box-shadow: 0px 12px 40px rgba(153, 153, 153, 0.2);
   }
 
@@ -412,6 +417,7 @@ body {
   }
 
   .volunteer-join-us:hover {
+    transition: all ease-in 0.2s;
     background: transparent !important;
     text-decoration: none;
   }
@@ -680,21 +686,6 @@ img.card-img-top.img-fluid {
 }
 
 /* //Media Queries */
-/* @media screen and (min-width: 767px) and (max-width: 1199px) {
-  .finished-projects .card {
-    min-width: 325px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-} */
-
-@media screen and (min-width: 767px) and (max-width: 991px) {
-  .header .navbar ul {
-    gap: 5px !important;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .header .navbar ul {
     text-align: center;
