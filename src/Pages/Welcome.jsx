@@ -11,7 +11,7 @@ import Team from "./Team";
 import lavinia1 from "/images/lavinia/lavinia1.jpg";
 import eco6 from "/images/eco/eco6.jpeg";
 import med from "/images/medicalAction/med5.jpeg";
-import cloth from "../assets/img/cloth.webp";
+// import cloth from "../assets/img/cloth.webp";
 
 export const Welcome = () => {
   return (
@@ -26,10 +26,11 @@ export const Welcome = () => {
               <p className="single-cause-title">Dezoltare Comunitarǎ</p>
               <img src={development} alt="Growth" />
               <p className="single-cause-description">
-                Ne dedicăm evoluției satelor Islaz și Moldoveni, susținând
-                proiecte care aduc îmbunătățiri directe în viața comunității.
-                Prin unirea forțelor, facem pasul către un viitor mai prosper
-                pentru toți locuitorii.
+                Ne dedicăm proiectelor medico-sociale pentru a veni în sprijinul
+                persoanelor vulnerabile. Asociația Rural 21, înființată în 2021,
+                susține dezvoltarea satelor Islaz și Moldoveni, aducând
+                îmbunătățiri directe în viața comunității. Facem pasul către un
+                viitor mai prosper.
               </p>
             </div>
           </div>
@@ -83,9 +84,7 @@ export const Welcome = () => {
                 </figure>
                 <div className="card_inner_body">
                   <p className="card-title">
-                    <Link to="/project2">
-                      Efort comunitar pentru un mediu mai curat
-                    </Link>
+                    <Link to="/project2">Acțiune de ecologizare</Link>
                   </p>
                   <p className="card-text">
                     Împreună cu colegii noștri de la{" "}
@@ -93,8 +92,8 @@ export const Welcome = () => {
                     <strong>#cuapelecurate</strong> și{" "}
                     <strong>#cleandanube</strong>, am reușit să tragem un semnal
                     de alarmă și să conștientizăm prin acțiunile noastre de
-                    astăzi de la Plaja Pod Olt și Gura Oltului din comuna Islaz
-                    TR.
+                    ecologizare desfåşurate astăzi de la Plaja Pod Olt și Gura
+                    Oltului din comuna Islaz TR.
                   </p>
                 </div>
                 <Link className="project-read-more" to="/project2">
@@ -134,7 +133,7 @@ export const Welcome = () => {
           derulate de catre noi.
         </p>
       </div>
-      <div className="future-projects container">
+      {/* <div className="future-projects container">
         <p className="section-title future-title">Proiecte viitoare</p>
         <div className="row">
           <div className="col-lg-6">
@@ -242,7 +241,7 @@ export const Welcome = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <Team />
       <Joinus />
       <Footer />
