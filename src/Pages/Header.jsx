@@ -30,9 +30,9 @@ const Header = () => {
               <Link to="/projects" className="router-link">
                 <p>Proiectele noastre</p>
               </Link>
-              <Link to="/donate" className="router-link">
+              {/* <Link to="/donate" className="router-link">
                 <p>Proiect de viitor</p>
-              </Link>
+              </Link> */}
               <Link to="/donate" className="router-link">
                 <p>Doneazǎ</p>
               </Link>

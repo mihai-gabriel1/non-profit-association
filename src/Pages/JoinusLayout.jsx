@@ -32,8 +32,7 @@ const JoinusLayout = () => {
               <p>
                 Calitatea de membru poate fi dobândită pe baza unei cereri
                 scrise tipizate (cererea de adeziune) adresată Consiliului
-                Director, după un stagiu de colaborator voluntar de cel puțin 3
-                luni, cu aprobarea Adunării Generale a asociației.
+                Director, cu aprobarea Adunării Generale a asociației.
               </p>
 
               <p>
