@@ -50,6 +50,7 @@ body {
   }
 
   .navbar a:hover {
+    transition: all ease-in 0.2s;
     color: #60bc0f !important;
   }
 }
@@ -117,6 +118,7 @@ body {
   }
 
   .see-causes:hover {
+    transition: all ease-in 0.2s;
     background: transparent;
     color: #60bc0f;
   }
@@ -140,6 +142,7 @@ body {
   }
 
   .find-more:hover {
+    transition: all ease-in 0.2s;
     background: transparent !important;
   }
 }
@@ -172,6 +175,7 @@ body {
   }
 
   .single-cause-div:hover {
+    transition: all ease-in 0.2s;
     box-shadow: 0px 20px 30px rgba(153, 153, 153, 0.2);
   }
 }
@@ -236,6 +240,7 @@ body {
 }
 
 .finished-projects .project-read-more:hover {
+  transition: all ease-in 0.2s;
   background-color: #0d2e14;
   text-decoration: none;
   transition: all ease 0.1s;
@@ -255,6 +260,7 @@ body {
   }
 
   .card:hover {
+    transition: all ease-in 0.2s;
     box-shadow: 0px 12px 40px rgba(153, 153, 153, 0.2);
   }
 
@@ -301,6 +307,7 @@ body {
 }
 
 .future-projects .row div:hover {
+  transition: all ease-in 0.2s;
   transition: all 0.3s ease-in-out;
 
   .future-post-title {
@@ -354,6 +361,7 @@ body {
 }
 
 .team_item:hover {
+  transition: all ease-in 0.2s;
   box-shadow: 0px 20px 30px rgba(153, 153, 153, 0.2);
   transition: all 300ms linear 0s;
 }
@@ -406,6 +414,7 @@ body {
   }
 
   .volunteer-join-us:hover {
+    transition: all ease-in 0.2s;
     background: transparent !important;
     text-decoration: none;
   }
