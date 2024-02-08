@@ -583,6 +583,16 @@ body {
   min-height: unset !important;
 }
 
+.aboutus-layout-wrapper .header {
+  .header-title {
+    padding-top: 150px;
+  }
+  .header-buttons {
+    padding-bottom: 50px;
+  }
+  min-height: unset !important;
+}
+
 .joinus-layout-wrapper .header {
   .header-title {
     padding-top: 150px;
@@ -655,16 +665,25 @@ img.card-img-top.img-fluid {
 }
 
 /* //Media Queries */
-@media screen and (min-width: 768px) {
-  .header .navbar ul {
-    text-align: center;
-    justify-content: center;
+@media screen and (min-width: 767px) and (max-width: 1199px) {
+  .finished-projects .card {
+    min-width: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 
 @media screen and (min-width: 767px) and (max-width: 991px) {
   .header .navbar ul {
     gap: 5px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header .navbar ul {
+    text-align: center;
+    justify-content: center;
   }
 }
 
