@@ -208,6 +208,7 @@ body {
   justify-content: center;
   padding: 0 60px;
   text-align: justify;
+  background-color: #fff;
 }
 
 .about-us-p {
@@ -837,6 +838,10 @@ img.card-img-top.img-fluid {
   }
   .our-causes .row .col-lg-6 {
     margin-bottom: 20px;
+  }
+  .lavinia-clip {
+    height: 300px !important;
+    width: 100% !important;
   }
 }
 

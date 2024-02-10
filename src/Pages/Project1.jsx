@@ -68,7 +68,8 @@ const Project1 = () => {
             frumos.
           </p>
           <ReactPlayer
-            url="/videos/lavinia/lavinia.mp4"
+            className="lavinia-clip"
+            url="/videos/laviniaclip.mp4"
             controls
             width="50%"
             height="400px"

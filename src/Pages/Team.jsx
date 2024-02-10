@@ -6,7 +6,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 const Team = () => {
   return (
-    <div>
+    <div data-aos="fade-in" data-aos-duration="1000">
       <div className="team-area-wrapper">
         <div className="team-area container" />
         <p className="section-title team-title">Hai sa facem cunoştințǎ</p>
