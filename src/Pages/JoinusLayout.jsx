@@ -5,11 +5,11 @@ import Footer from "./Footer";
 import { Link } from "react-router-dom";
 
 const JoinusLayout = () => {
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   // Implement what should happen on form submit
-  //   console.log("Form submitted");
-  // };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Implement what should happen on form submit
+    console.log("Form submitted");
+  };
 
   return (
     <div className="joinus-layout-wrapper">
@@ -105,7 +105,7 @@ const JoinusLayout = () => {
               </p>
             </div>
 
-            {/* <section className="mb-4">
+            <section className="mb-4">
               <div className="row">
                 <div className="col-md-9 mb-md-0 mb-5">
                   <form
@@ -185,22 +185,7 @@ const JoinusLayout = () => {
 
                 <div className="col-md-3 text-center"></div>
               </div>
-            </section> */}
-            <form name="contact" method="POST" data-netlify="true">
-              <input type="text" name="name" placeholder="Your Name" required />
-              <input
-                type="email"
-                name="email"
-                placeholder="Your Email"
-                required
-              />
-              <textarea
-                name="message"
-                placeholder="Your Message"
-                required
-              ></textarea>
-              <button type="submit">Send</button>
-            </form>
+            </section>
           </div>
         </div>
       </div>
