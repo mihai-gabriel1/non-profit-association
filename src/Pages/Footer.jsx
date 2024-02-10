@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import locationLogo from "../assets/logos/location.svg";
 import phone from "../assets/logos/phone.svg";
 import envelope from "../assets/logos/mail.svg";
@@ -32,30 +33,24 @@ const Footer = () => {
                 <p className="footer-small-title">Linkuri Utile</p>
                 <ul className="footer-quick-list">
                   <li className="quick-link">
-                    <a href="{{ url('/') }}" className="nav-link active">
-                      Acasǎ
-                    </a>
+                    <Link to="/" className="router-link">
+                      <p>Acasǎ</p>
+                    </Link>
                   </li>
                   <li className="quick-link">
-                    <a href="{{ route('about') }}" className="nav-link active">
-                      Despre noi
-                    </a>
+                    <Link to="/aboutus" className="router-link">
+                      <p>Despre noi</p>
+                    </Link>
                   </li>
                   <li className="quick-link">
-                    <a
-                      href="{{ route('projects') }}"
-                      className="nav-link active"
-                    >
-                      Proiecte viitoare
-                    </a>
+                    <Link to="/projects" className="router-link">
+                      <p>Proiecte</p>
+                    </Link>
                   </li>
                   <li className="quick-link">
-                    <a
-                      href="{{ route('blog.index') }}"
-                      className="nav-link active"
-                    >
-                      Noutǎți
-                    </a>
+                    <Link to="/aboutus" className="router-link">
+                      <p>Noutǎți</p>
+                    </Link>
                   </li>
                 </ul>
               </div>

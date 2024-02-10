@@ -2,6 +2,7 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
 const JoinusLayout = () => {
   const handleSubmit = (e) => {
@@ -88,7 +89,11 @@ const JoinusLayout = () => {
               <p>
                 Totodatǎ, puteți accesa pagina dedicatǎ redirecționǎrii
                 impozitului pe venit, cǎtre asociația noastrǎ, accesând
-                <a href="{{ route('donate') }}">acest link</a> .
+                urmǎtorul{" "}
+                <Link to="/donate" className="router-link" target="_blank">
+                  link
+                </Link>
+                .{" "}
               </p>
 
               <p>

@@ -50,7 +50,7 @@ const Donate = () => {
                     descărca{" "}
                     <strong>
                       <a
-                        href="https://filebin.net/4j9ggk5o5dp9swi2"
+                        href="https://www.dropbox.com/scl/fi/ykezb8o16tbj19s2wq43y/formular_RURAL21.pdf?rlkey=9cbraedgjblljakbuory1k39m&dl=0"
                         target="_blank"
                         rel="noreferrer"
                       >
