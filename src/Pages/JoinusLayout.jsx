@@ -5,11 +5,11 @@ import Footer from "./Footer";
 import { Link } from "react-router-dom";
 
 const JoinusLayout = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Implement what should happen on form submit
-    console.log("Form submitted");
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   // Implement what should happen on form submit
+  //   console.log("Form submitted");
+  // };
 
   return (
     <div className="joinus-layout-wrapper">
@@ -105,16 +105,22 @@ const JoinusLayout = () => {
               </p>
             </div>
 
-            <section className="mb-4">
-              {/* Contact section content */}
-
+            {/* <section className="mb-4">
               <div className="row">
                 <div className="col-md-9 mb-md-0 mb-5">
                   <form
                     id="contact-form"
                     name="contact-form"
                     onSubmit={handleSubmit}
+                    data-netlify="true"
+                    data-netlify-honeypot="bot-field"
                   >
+                    <input
+                      type="hidden"
+                      name="form-name"
+                      value="contact-form"
+                    />
+
                     <div className="row">
                       <div className="col-md-6">
                         <div className="md-form mb-0">
@@ -171,17 +177,30 @@ const JoinusLayout = () => {
                   </form>
 
                   <div className="text-center text-md-left">
-                    <button className="btn btn-primary" onClick={handleSubmit}>
+                    <button type="submit" className="btn btn-primary">
                       Trimite
                     </button>
                   </div>
                 </div>
 
-                <div className="col-md-3 text-center">
-                  {/* Contact information */}
-                </div>
+                <div className="col-md-3 text-center"></div>
               </div>
-            </section>
+            </section> */}
+            <form name="contact" method="POST" data-netlify="true">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit">Send</button>
+            </form>
           </div>
         </div>
       </div>
