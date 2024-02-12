@@ -5,11 +5,11 @@ import Footer from "./Footer";
 import { Link } from "react-router-dom";
 
 const JoinusLayout = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Implement what should happen on form submit
-    console.log("Form submitted");
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   // Implement what should happen on form submit
+  //   console.log("Form submitted");
+  // };
 
   return (
     <div className="joinus-layout-wrapper">
@@ -105,22 +105,18 @@ const JoinusLayout = () => {
               </p>
             </div>
 
+            {/* contact form */}
             <section className="mb-4">
               <div className="row">
                 <div className="col-md-9 mb-md-0 mb-5">
                   <form
+                    className="contact-form"
+                    action="https://formspree.io/f/xwkgopnj"
+                    method="POST"
+                    encType="multipart/form-data"
                     id="contact-form"
                     name="contact-form"
-                    onSubmit={handleSubmit}
-                    data-netlify="true"
-                    data-netlify-honeypot="bot-field"
                   >
-                    <input
-                      type="hidden"
-                      name="form-name"
-                      value="contact-form"
-                    />
-
                     <div className="row">
                       <div className="col-md-6">
                         <div className="md-form mb-0">
@@ -130,14 +126,13 @@ const JoinusLayout = () => {
                             name="name"
                             className="form-control"
                           />
-                          <label htmlFor="name">Numele tǎu:</label>
+                          <label htmlFor="name">Numele tău:</label>
                         </div>
                       </div>
-
                       <div className="col-md-6">
                         <div className="md-form mb-0">
                           <input
-                            type="text"
+                            type="email"
                             id="email"
                             name="email"
                             className="form-control"
@@ -156,7 +151,7 @@ const JoinusLayout = () => {
                             name="subject"
                             className="form-control"
                           />
-                          <label htmlFor="subject">Subiect</label>
+                          <label htmlFor="subject">Subiect:</label>
                         </div>
                       </div>
                     </div>
@@ -170,19 +165,18 @@ const JoinusLayout = () => {
                             rows="2"
                             className="form-control md-textarea"
                           ></textarea>
-                          <label htmlFor="message">Mesajul tǎu:</label>
+                          <label htmlFor="message">Mesajul tău:</label>
                         </div>
                       </div>
                     </div>
+
+                    <div className="text-center text-md-left">
+                      <button type="submit" className="btn btn-primary">
+                        Trimite
+                      </button>
+                    </div>
                   </form>
-
-                  <div className="text-center text-md-left">
-                    <button type="submit" className="btn btn-primary">
-                      Trimite
-                    </button>
-                  </div>
                 </div>
-
                 <div className="col-md-3 text-center"></div>
               </div>
             </section>

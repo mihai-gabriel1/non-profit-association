@@ -4,7 +4,7 @@ const Aboutus = () => {
   return (
     <div>
       <div className="about-us container">
-        <p className="section-title about-us-title mt-2">Cine suntem</p>
+        <p className="section-title about-us-title mt-5">Cine suntem</p>
         <div className="row">
           <div className="col-lg-6 col-md-12 about-us-left">
             <img src={team} alt="" />
@@ -17,9 +17,9 @@ const Aboutus = () => {
             <p className="about-us-p">
               Asociația Rural 21 este o asociație înființată în anul 2021 de
               cåtre un grup de membri dornici să contribuie la dezvoltarea
-              serviciilor medicosociale pentru persoanele aflate în dificultate,
-              dar și la punerea în valoare, sub diferite forme, a resurselor pe
-              care comunitățile din Islaz și Moldoveni le dețin.
+              serviciilor medico-sociale pentru persoanele aflate în
+              dificultate, dar și la punerea în valoare, sub diferite forme, a
+              resurselor pe care comunitățile din Islaz și Moldoveni le dețin.
             </p>
             <p className="about-us-p">
               Asociația Rural 21 se dedica susținerii celor în nevoie din Islaz
