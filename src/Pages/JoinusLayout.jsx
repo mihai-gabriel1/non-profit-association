@@ -120,24 +120,24 @@ const JoinusLayout = () => {
                     <div className="row">
                       <div className="col-md-6">
                         <div className="md-form mb-0">
+                          <label htmlFor="name">Numele tău:</label>
                           <input
                             type="text"
                             id="name"
                             name="name"
                             className="form-control"
                           />
-                          <label htmlFor="name">Numele tău:</label>
                         </div>
                       </div>
                       <div className="col-md-6">
                         <div className="md-form mb-0">
+                          <label htmlFor="email">Adresa de e-mail:</label>
                           <input
                             type="email"
                             id="email"
                             name="email"
                             className="form-control"
                           />
-                          <label htmlFor="email">Adresa de e-mail:</label>
                         </div>
                       </div>
                     </div>
@@ -145,13 +145,13 @@ const JoinusLayout = () => {
                     <div className="row">
                       <div className="col-md-12">
                         <div className="md-form mb-0">
+                          <label htmlFor="subject">Subiect:</label>
                           <input
                             type="text"
                             id="subject"
                             name="subject"
                             className="form-control"
                           />
-                          <label htmlFor="subject">Subiect:</label>
                         </div>
                       </div>
                     </div>
@@ -159,13 +159,13 @@ const JoinusLayout = () => {
                     <div className="row">
                       <div className="col-md-12">
                         <div className="md-form">
+                          <label htmlFor="message">Mesajul tău:</label>
                           <textarea
                             id="message"
                             name="message"
                             rows="2"
                             className="form-control md-textarea"
                           ></textarea>
-                          <label htmlFor="message">Mesajul tău:</label>
                         </div>
                       </div>
                     </div>

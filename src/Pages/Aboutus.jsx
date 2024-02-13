@@ -11,8 +11,8 @@ const Aboutus = () => {
           </div>
           <div className="col-lg-6 col-md-12  about-us-text">
             <p className="section-title section-title-about">
-              Unind Islaz și Moldoveni, Asociația Rural 21 catalizează
-              dezvoltarea comunitară și conservarea mediului.
+              Dorim sǎ fim unii dintre cei care pot smulge un zâmbet celor care
+              sunt in nevoie.
             </p>
             <p className="about-us-p">
               Asociația Rural 21 este o asociație înființată în anul 2021 de

@@ -9,7 +9,7 @@ const Header = () => {
       <nav className="navbar navbar-dark navbar-expand-md bg-dark">
         <div className="container">
           <Link to="/" className="router-link">
-            <p>Asociația Islaz 21</p>
+            <p>Asociația Rural 21</p>
           </Link>
           <button
             className="navbar-toggler"

@@ -18,14 +18,11 @@ const Footer = () => {
                 <div className="footer-left-mission">
                   <p className="footer-title section-title">Misiunea noastrǎ</p>
                   <p className="footer-mission-p">
-                    Asociația Rural 21 se dedica susținerii celor în nevoie din
-                    Islaz și Moldoveni, oferind nu doar ajutor material, ci și
-                    programe educative care îmbrățișează tradițiile și inovația.
-                  </p>
-                  <p className="footer-mission-p">
-                    Asociația Rural 21 își asumă misiunea de a iniția și de a
-                    conduce proiecte inovatoare ce vizează progresul și
-                    prosperitatea comunităților din Islaz și Moldoveni.
+                    Asociația Rural 21 este dedicată sprijinirii persoanelor
+                    aflate în dificultate din Islaz și Moldoveni, oferindu-le nu
+                    doar asistență materială, ci și inițiind și coordonând
+                    proiecte inovatoare, cu scopul de a contribui la progresul
+                    și prosperitatea acestor comunități.
                   </p>
                 </div>
               </div>

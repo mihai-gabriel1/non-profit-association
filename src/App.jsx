@@ -26,6 +26,8 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/aboutus" element={<AboutusLayout />} />
           <Route path="/joinus" element={<JoinusLayout />} />
+          <Route path="/contact" element={<AboutusLayout />} />
+          <Route path="/activitati" element={<Projects />} />
         </Routes>
       </div>
     </Router>
