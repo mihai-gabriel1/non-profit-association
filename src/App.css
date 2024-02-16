@@ -44,6 +44,8 @@ body {
     font-weight: 500;
     margin-top: 20px;
     text-transform: uppercase;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   .router-link:hover {
