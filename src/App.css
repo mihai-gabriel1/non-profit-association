@@ -706,6 +706,53 @@ img.card-img-top.img-fluid {
   font-weight: 300 !important;
 }
 
+.donate-other-ways img {
+  max-width: 65px;
+}
+
+.donate-other-ways {
+  p {
+    margin-bottom: 0;
+  }
+
+  .support-way {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .other-way-title {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 6px 10px;
+  }
+
+  .other-way-description {
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 5px;
+    max-width: 300px;
+  }
+
+  .other-way-find-more {
+    text-decoration: none;
+    text-decoration-style: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all ease 0.1s;
+  }
+
+  .other-way-find-more:hover {
+    transition: all ease 0.1s;
+    background-color: #3e8fe5;
+    cursor: pointer;
+  }
+}
+
 /* //Media Queries */
 @media screen and (min-width: 768px) {
   .header .navbar ul {
