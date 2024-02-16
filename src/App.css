@@ -620,6 +620,16 @@ body {
   min-height: unset !important;
 }
 
+.transfer-bancar-overall-wrapper .header {
+  .header-title {
+    padding-top: 150px;
+  }
+  .header-buttons {
+    padding-bottom: 50px;
+  }
+  min-height: unset !important;
+}
+
 .joinus-layout-wrapper .membership-information .router-link {
   text-decoration: none;
   color: #007bff;
@@ -750,6 +760,45 @@ img.card-img-top.img-fluid {
     transition: all ease 0.1s;
     background-color: #3e8fe5;
     cursor: pointer;
+  }
+
+  a.router-link {
+    text-decoration: none;
+    text-decoration-style: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all ease 0.1s;
+  }
+
+  a.router-link:hover {
+    transition: all ease 0.1s;
+    background-color: #3e8fe5;
+    cursor: pointer;
+  }
+}
+
+.transfer-bancar-section .router-link {
+  text-decoration: none;
+  text-decoration-style: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  transition: all ease 0.1s;
+}
+
+.transfer-bancar-section .router-link:hover {
+  transition: all ease 0.1s;
+  background-color: #3e8fe5;
+  cursor: pointer;
+}
+
+.transfer-bancar-section {
+  p {
+    font-size: 17px !important;
+    font-weight: 400 !important;
   }
 }
 

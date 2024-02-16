@@ -11,6 +11,9 @@ import ScrollToTop from "./Pages/ScrollToTop";
 import Projects from "./Pages/Projects";
 import AboutusLayout from "./Pages/AboutusLayout";
 import JoinusLayout from "./Pages/JoinusLayout";
+import TransferBancar from "./Pages/TransferBancar";
+import PersoanaFizica from "./Pages/PersoanaFizica";
+import PersoanaJuridica from "./Pages/PersoanaJuridica";
 
 function App() {
   return (
@@ -28,6 +31,9 @@ function App() {
           <Route path="/joinus" element={<JoinusLayout />} />
           <Route path="/contact" element={<AboutusLayout />} />
           <Route path="/activitati" element={<Projects />} />
+          <Route path="/transfer-bancar" element={<TransferBancar />} />
+          <Route path="/persoana-fizica" element={<PersoanaFizica />} />
+          <Route path="/persoana-juridica" element={<PersoanaJuridica />} />
         </Routes>
       </div>
     </Router>
