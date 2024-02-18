@@ -145,7 +145,9 @@ const JoinusLayout = () => {
                     <div className="row">
                       <div className="col-md-12">
                         <div className="md-form mb-0">
-                          <label htmlFor="subject">Subiect:</label>
+                          <label htmlFor="subject" className="subject-label">
+                            Subiect:
+                          </label>
                           <input
                             type="text"
                             id="subject"
@@ -159,7 +161,9 @@ const JoinusLayout = () => {
                     <div className="row">
                       <div className="col-md-12">
                         <div className="md-form">
-                          <label htmlFor="message">Mesajul tău:</label>
+                          <label htmlFor="message" className="label-message">
+                            Mesajul tău:
+                          </label>
                           <textarea
                             id="message"
                             name="message"

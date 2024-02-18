@@ -10,6 +10,16 @@ import transfer from "../assets/logos/transfer.png";
 import jucarii from "../assets/logos/jucarii.png";
 
 const Donate = () => {
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://js.stripe.com/v3/buy-button.js";
+    script.async = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <div className="donate-component">
       <Header />
@@ -26,9 +36,35 @@ const Donate = () => {
         </p>
 
         <h1 className="text-center">Doneazǎ</h1>
-        <p className="text-center mb-5">
-          Link sau cv smecherie cu checkout pt stripe
-        </p>
+
+        <div className="container donation-widget-wrapper">
+          <div className="donation-widget">
+            <div className="row">
+              <div className="col-lg-4 col-md-12 col-sm-12 donate-col">
+                <p className="donate-amount-title"></p>
+                <stripe-buy-button
+                  buy-button-id="buy_btn_1OlHd7GbteexYB5NcXMrVQCz"
+                  publishable-key="pk_live_51OjLlqGbteexYB5N35uVNCoZ8eqWA4lIWv0ysJQ0Vo5gKQpHsrKevAognTewpZM1NLuXeYQUVzEgwytPMxPRcCqc00ArlXrMjO"
+                ></stripe-buy-button>
+              </div>
+              <div className="col-lg-4 col-md-12 col-sm-12 donate-col">
+                <p className="donate-amount-title"></p>
+                <stripe-buy-button
+                  buy-button-id="buy_btn_1OlHqWGbteexYB5NAtZlyYmB"
+                  publishable-key="pk_live_51OjLlqGbteexYB5N35uVNCoZ8eqWA4lIWv0ysJQ0Vo5gKQpHsrKevAognTewpZM1NLuXeYQUVzEgwytPMxPRcCqc00ArlXrMjO"
+                ></stripe-buy-button>
+              </div>
+              <div className="col-lg-4 col-md-12 col-sm-12 donate-col">
+                <stripe-buy-button
+                  buy-button-id="buy_btn_1OlHyUGbteexYB5NAvwh9tWh"
+                  publishable-key="pk_live_51OjLlqGbteexYB5N35uVNCoZ8eqWA4lIWv0ysJQ0Vo5gKQpHsrKevAognTewpZM1NLuXeYQUVzEgwytPMxPRcCqc00ArlXrMjO"
+                ></stripe-buy-button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p className="other-ways-to-help text-center">Cum mai poți ajuta</p>
 
         <div className="row donate-other-ways">
           <div className="col-lg-4 col-md-6 col-sm-12 support-way">
