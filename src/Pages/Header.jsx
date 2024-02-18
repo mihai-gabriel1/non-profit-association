@@ -34,7 +34,7 @@ const Header = () => {
                 <p>Proiect de viitor</p>
               </Link> */}
               <Link to="/donate" className="router-link">
-                <p>Doneazǎ</p>
+                <p>Cum poți ajuta</p>
               </Link>
               <Link to="/joinus" className="router-link">
                 <p>Vino cu noi</p>
@@ -51,8 +51,8 @@ const Header = () => {
         <p className="better-world">Pentru o lume mai bunā</p>
       </div>
       <div className="header-buttons">
-        <Link to="/aboutus" className="router-link">
-          <p className="find-more">Afla mai multe</p>
+        <Link to="/donate" className="router-link">
+          <p className="find-more">Cum poți ajuta</p>
         </Link>
         <Link to="/projects" className="router-link">
           <p className="see-causes">Cauzele noastre</p>

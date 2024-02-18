@@ -44,6 +44,8 @@ body {
     font-weight: 500;
     margin-top: 20px;
     text-transform: uppercase;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   .router-link:hover {
@@ -620,6 +622,16 @@ body {
   min-height: unset !important;
 }
 
+.transfer-bancar-overall-wrapper .header {
+  .header-title {
+    padding-top: 150px;
+  }
+  .header-buttons {
+    padding-bottom: 50px;
+  }
+  min-height: unset !important;
+}
+
 .joinus-layout-wrapper .membership-information .router-link {
   text-decoration: none;
   color: #007bff;
@@ -704,9 +716,143 @@ img.card-img-top.img-fluid {
   font-size: 18px !important;
   line-height: 1.75;
   font-weight: 300 !important;
+  margin-bottom: 0 !important;
+}
+
+.contact-form .subject-label,
+.label-message {
+  margin-top: 10px;
+}
+
+.donate-other-ways img {
+  max-width: 65px;
+}
+
+.donate-other-ways {
+  p {
+    margin-bottom: 0;
+  }
+
+  .support-way {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .other-way-title {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 6px 10px;
+  }
+
+  .other-way-description {
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 5px;
+    max-width: 300px;
+  }
+
+  .other-way-find-more {
+    text-decoration: none;
+    text-decoration-style: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all ease 0.1s;
+  }
+
+  .other-way-find-more:hover {
+    transition: all ease 0.1s;
+    background-color: #3e8fe5;
+    cursor: pointer;
+  }
+
+  a.router-link {
+    text-decoration: none;
+    text-decoration-style: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all ease 0.1s;
+  }
+
+  a.router-link:hover {
+    transition: all ease 0.1s;
+    background-color: #3e8fe5;
+    cursor: pointer;
+  }
+}
+
+.donation-widget {
+  border: 1px solid #ebebeb;
+  background-color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 2rem 2rem 1rem 2rem;
+  box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.1) !important;
+  p {
+    margin-bottom: 0;
+  }
+  .donate-col {
+    border: 1px solid #22202047;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    width: 100%;
+  }
+  .donate-amount-title {
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .donate-amount {
+    font-size: 21px;
+    font-weight: 300;
+  }
+}
+
+.other-ways-to-help {
+  font-size: 27px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.transfer-bancar-section .router-link {
+  text-decoration: none;
+  text-decoration-style: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  transition: all ease 0.1s;
+}
+
+.transfer-bancar-section .router-link:hover {
+  transition: all ease 0.1s;
+  background-color: #3e8fe5;
+  cursor: pointer;
+}
+
+.transfer-bancar-section {
+  p {
+    font-size: 17px !important;
+    font-weight: 400 !important;
+  }
 }
 
 /* //Media Queries */
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+  .donation-widget .donate-col {
+    border: none;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .header .navbar ul {
     text-align: center;
@@ -949,6 +1095,21 @@ img.card-img-top.img-fluid {
   }
   .d-flex.align-items-center.footer-address-wrapper {
     margin-left: unset !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .donation-widget {
+    background: none;
+    box-shadow: unset !important;
+    border: none !important;
+    margin-bottom: 0.2rem;
+  }
+  .donate-col {
+    border: none !important;
+  }
+  .support-way {
+    margin-top: 20px;
   }
 }
 
