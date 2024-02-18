@@ -1000,6 +1000,9 @@ img.card-img-top.img-fluid {
     height: 300px !important;
     width: 100% !important;
   }
+  .support-way {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 697px) {
@@ -1107,9 +1110,6 @@ img.card-img-top.img-fluid {
   }
   .donate-col {
     border: none !important;
-  }
-  .support-way {
-    margin-top: 20px;
   }
 }
 
