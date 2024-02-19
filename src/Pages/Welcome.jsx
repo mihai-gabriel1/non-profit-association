@@ -1,7 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import AOS from "aos";
 import "aos/dist/aos.css"; // Import the AOS CSS
 import development from "../assets/img/development.avif";
 import growth from "../assets/img/growing-plant.avif";
@@ -16,27 +15,14 @@ import med from "/images/medicalAction/med5.jpeg";
 // import cloth from "../assets/img/cloth.webp";
 
 export const Welcome = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <div className="welcome-wrapper">
       <Header />
       <Aboutus />
       <div className="our-causes container">
-        <p
-          className="our-causes section-title"
-          data-aos="fade-up"
-          data-aos-duration="500"
-        >
-          Cauzele dupa care ne ghidǎm
-        </p>
+        <p className="our-causes section-title">Cauzele dupa care ne ghidǎm</p>
         <div className="row">
-          <div
-            className="col-lg-6 col-md-6"
-            data-aos="fade-right"
-            data-aos-duration="500"
-          >
+          <div className="col-lg-6 col-md-6">
             <div className="single-cause-div">
               <p className="single-cause-title">Dezoltare Comunitarǎ</p>
               <img src={development} alt="Growth" />
@@ -49,11 +35,7 @@ export const Welcome = () => {
               </p>
             </div>
           </div>
-          <div
-            className="col-lg-6 col-md-6"
-            data-aos="fade-left"
-            data-aos-duration="500"
-          >
+          <div className="col-lg-6 col-md-6">
             <div className="single-cause-div">
               <p className="single-cause-title">Protecția Mediului</p>
               <img src={growth} alt="Growth" />
@@ -68,14 +50,8 @@ export const Welcome = () => {
         </div>
       </div>
       <div className="finished-projects container">
-        <p
-          className="section-title finished-projects"
-          data-aos="fade-in"
-          data-aos-duration="1000"
-        >
-          Proiecte finalizate
-        </p>
-        <div className="row" data-aos="fade-in" data-aos-duration="1000">
+        <p className="section-title finished-projects">Proiecte finalizate</p>
+        <div className="row">
           <div className="col-lg-4 col-md-6">
             <div className="card">
               <div className="card-body">

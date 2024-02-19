@@ -3,11 +3,7 @@ import { Link } from "react-router-dom";
 const Joinus = () => {
   return (
     <div>
-      <div
-        className="home-become-volunteer-wrapper"
-        data-aos="fade-in"
-        data-aos-duration="1000"
-      >
+      <div className="home-become-volunteer-wrapper">
         <div className="become-volunteer container">
           <p className="volunteer-title">Alǎturǎ-te echipei noastre</p>
           <p className="volunteer-text">
