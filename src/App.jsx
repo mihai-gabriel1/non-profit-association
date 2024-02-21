@@ -34,6 +34,7 @@ function App() {
           <Route path="/transfer-bancar" element={<TransferBancar />} />
           <Route path="/persoana-fizica" element={<PersoanaFizica />} />
           <Route path="/persoana-juridica" element={<PersoanaJuridica />} />
+          <Route path="/proiecte-in-derulare/" element={<Projects />} />
         </Routes>
       </div>
     </Router>
