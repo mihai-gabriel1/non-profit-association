@@ -35,6 +35,10 @@ function App() {
           <Route path="/persoana-fizica" element={<PersoanaFizica />} />
           <Route path="/persoana-juridica" element={<PersoanaJuridica />} />
           <Route path="/proiecte-in-derulare/" element={<Projects />} />
+          <Route
+            path="/doneaza-20-din-impozitul-pe-profit/"
+            element={<PersoanaJuridica />}
+          />
         </Routes>
       </div>
     </Router>
