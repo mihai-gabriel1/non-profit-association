@@ -30,6 +30,7 @@ function App() {
           <Route path="/aboutus" element={<AboutusLayout />} />
           <Route path="/joinus" element={<JoinusLayout />} />
           <Route path="/contact" element={<AboutusLayout />} />
+          <Route path="/echipa" element={<AboutusLayout />} />
           <Route path="/activitati" element={<Projects />} />
           <Route path="/transfer-bancar" element={<TransferBancar />} />
           <Route path="/persoana-fizica" element={<PersoanaFizica />} />
