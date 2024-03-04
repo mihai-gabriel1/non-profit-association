@@ -51,4 +51,10 @@ cd non-profit-association
 npm install
 ```
 
-3. Enjoy
+4. Start the project locally
+
+```bash
+npm run dev
+```
+
+5. Enjoy
