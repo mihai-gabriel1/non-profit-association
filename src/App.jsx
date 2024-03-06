@@ -35,7 +35,10 @@ function App() {
           <Route path="/transfer-bancar" element={<TransferBancar />} />
           <Route path="/persoana-fizica" element={<PersoanaFizica />} />
           <Route path="/persoana-juridica" element={<PersoanaJuridica />} />
-          <Route path="/proiecte-in-derulare/" element={<Projects />} />
+          <Route path="/proiecte-in-derulare" element={<Projects />} />
+          <Route path="/formular_RURAL21.pdf" element={<PersoanaFizica />} />
+          <Route path="/2022" element={<Projects />} />
+          <Route path="/2022/01" element={<Projects />} />
           <Route
             path="/doneaza-20-din-impozitul-pe-profit/"
             element={<PersoanaJuridica />}
